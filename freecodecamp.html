@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body>
+	<body class="case-study-body__reset">
 		<!--[if lt IE 7]>
 			<p class="browsehappy"
 				>You are using an <strong>outdated</strong> browser. Please
@@ -21,16 +21,20 @@
 			>
 		<![endif]-->
 
-		<div class="nav-container">
-			<nav class="navigation__layout">
-				<ul class="nav-flex-container primary-nav__li--hover-state">
-					<li class="flex-item nav-flex-item1 name-full">
+		<div
+			class="nav-container main-page-constraint-container cs-nav__container--layout"
+		>
+			<nav class="">
+				<ul
+					class="nav-flex-container primary-nav__li--hover-state cs-article__nav-ul"
+				>
+					<!-- <li class="flex-item nav-flex-item1 name-full ">
 						<a href="" class="wordmark-logo flex-item">
 							Jason
 							<br />
 							Crabtree
 						</a>
-					</li>
+					</li> -->
 					<li class="flex-item nav-flex-item1 name-initials">
 						<a href="" class="wordmark-logo flex-item">
 							JTC
@@ -60,34 +64,321 @@
 			</nav>
 		</div>
 
-		<h1 class="">Hello World</h1>
-		<p>Hello moon</p>
-		<blockquote>Hello moon</blockquote>
+		<main class="main-grid__grid-structure">
+			<header class="cs-title-group__main-title--layout">
+				<h1 class="cs-title-group__title--text text__title--h1">
+					Product Design Lessons from Designing and Building 5 Websites for a
+					FreeCodeCamp Certificate
+				</h1>
+				<p class="text__supporting-title--style">
+					A Case Study: Lessons Learnt, Refining my Process and Next Steps
+				</p>
+				<p class="tag-span cs-title-group__publish-info">
+					Published 15th May 2019 ∙
+					<a href="https://twitter.com/jasontcrabtree">Jason Crabtree</a>
+				</p>
+			</header>
 
-		<section>
-			<h3>What I learnt and Who'se the Who</h3>
-			<p>This is a story about a boy from Bellair</p>
-		</section>
-		<section>
-			<h3>What I learnt and Who'se the Who</h3>
-			<p>This is a story about a boy from Bellair</p>
-		</section>
-		<section>
-			<h3>What I learnt and Who'se the Who</h3>
-			<p>This is a story about a boy from Bellair</p>
-		</section>
-		<section>
-			<h3>What I learnt and Who'se the Who</h3>
-			<p>This is a story about a boy from Bellair</p>
-		</section>
-		<section>
-			<h3>What I learnt and Who'se the Who</h3>
-			<p>This is a story about a boy from Bellair</p>
-		</section>
-		<section>
-			<h3>What I learnt and Who'se the Who</h3>
-			<p>This is a story about a boy from Bellair</p>
-		</section>
+			<aside class="cs-image__5-pictures-01 cs-image__caption--layout tag-span">
+				<img
+					class="cs-image"
+					src="assets/case-study-pictures/FCC-5-Projects.png"
+					alt="5 completed projects displayed in a spread out grid"
+				/>
+				<caption>
+					The five completed websites — links to each live site found below.
+				</caption>
+			</aside>
+
+			<section
+				class="cs-article__table-of-contents-container
+                cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+			>
+				<section
+					class="cs-article__table-of-contents-content
+                    cs-article__layout--sm-media-query"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Table of Contents:
+					</h2>
+					<ol class="cs-article__table-of-contents-ol" start="1">
+						<li>Summary: Five lessons</li>
+						<li>Summarising my process for each challenge</li>
+						<li>Goals and overall approach</li>
+						<li>Defining design constraints</li>
+						<li>Project 1: Designing a Tribute Page</li>
+						<li>Project 2: Designing a Sign-up Form</li>
+						<li>Project 3: Designing a Product Landing Page. </li>
+						<li>Project 4: Design a Technical Documentation Page </li>
+						<li>Project 5: Design a Portfolio of Work</li>
+						<li>Results and outcomes</li>
+						<li>Lessons</li>
+						<li>Next steps</li>
+					</ol>
+				</section>
+			</section>
+
+			<article class="cs-article-layout">
+				<!-- <article> -->
+				<summary
+					class="
+					cs-article__text--type-constraints
+					cs-article__layout--sm-media-query
+					cs-article__layout--64px-spacer
+					cs-article__column--layout
+					"
+				>
+					<h2
+						class="
+						text__supporting-title--style
+					cs-article__text--heading"
+					>
+						5 Biggest Lessons:
+					</h2>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+					<ul class="cs-article__summary-ol">
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+							ac odio non augue consequat molestie eget quis mauris. Class
+							aptent taciti sociosqu ad litora torquent per conubia nostra
+						</li>
+						<li>
+							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
+							vulputate elit, convallis ultricies ligula. Duis in dolor
+							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
+							Suspendisse egestas imperdiet ipsum a posuere.
+						</li>
+						<li>
+							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
+							a. Maecenas sit amet consequat dolor.
+						</li>
+						<li>
+							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
+							Praesent tempor ante quis pharetra blandit.
+						</li>
+						<li>
+							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
+							posuere.
+						</li>
+					</ul>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+				</summary>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="5 completed projects displayed in a spread out grid"
+					/>
+					<caption>
+						The five completed websites — links to each live site found below.
+					</caption>
+				</aside>
+
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						5 Biggest Lessons:
+					</h2>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+					<ul class="cs-article__summary-ol">
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+							ac odio non augue consequat molestie eget quis mauris. Class
+							aptent taciti sociosqu ad litora torquent per conubia nostra
+						</li>
+						<li>
+							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
+							vulputate elit, convallis ultricies ligula. Duis in dolor
+							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
+							Suspendisse egestas imperdiet ipsum a posuere.
+						</li>
+						<li>
+							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
+							a. Maecenas sit amet consequat dolor.
+						</li>
+						<li>
+							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
+							Praesent tempor ante quis pharetra blandit.
+						</li>
+						<li>
+							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
+							posuere.
+						</li>
+					</ul>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+				</section>
+
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						5 Biggest Lessons:
+					</h2>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+					<ul class="cs-article__summary-ol">
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+							ac odio non augue consequat molestie eget quis mauris. Class
+							aptent taciti sociosqu ad litora torquent per conubia nostra
+						</li>
+						<li>
+							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
+							vulputate elit, convallis ultricies ligula. Duis in dolor
+							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
+							Suspendisse egestas imperdiet ipsum a posuere.
+						</li>
+						<li>
+							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
+							a. Maecenas sit amet consequat dolor.
+						</li>
+						<li>
+							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
+							Praesent tempor ante quis pharetra blandit.
+						</li>
+						<li>
+							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
+							posuere.
+						</li>
+					</ul>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+				</section>
+
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						5 Biggest Lessons:
+					</h2>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+					<ul class="cs-article__summary-ol">
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+							ac odio non augue consequat molestie eget quis mauris. Class
+							aptent taciti sociosqu ad litora torquent per conubia nostra
+						</li>
+						<li>
+							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
+							vulputate elit, convallis ultricies ligula. Duis in dolor
+							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
+							Suspendisse egestas imperdiet ipsum a posuere.
+						</li>
+						<li>
+							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
+							a. Maecenas sit amet consequat dolor.
+						</li>
+						<li>
+							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
+							Praesent tempor ante quis pharetra blandit.
+						</li>
+						<li>
+							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
+							posuere.
+						</li>
+					</ul>
+					<p>
+						CharacterCounter is a simple, lightweight tool to count how many
+						characters you’ve entered into a simple textbox. Focused on working
+						as quickly as possible, CharacterCounter gets you the information
+						you need exactly when you need it. Then, you can get back to what
+						you were doing. Having a precise, easy way to count the number of
+						characters they’re using helps writers be measured and deliberate
+						when they’re writing, editing and creating content. This can be
+						useful for writing headlines, ad copy, tweets, email subject lines,
+						designing interfaces or filling in web forms.
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01 cs-image__caption--layout tag-span cs-article__layout--64px-spacer"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="5 completed projects displayed in a spread out grid"
+					/>
+					<caption>
+						The five completed websites — links to each live site found below.
+					</caption>
+				</aside>
+			</article>
+		</main>
 
 		<script src="" async defer></script>
 	</body>
