@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body class="case-study-body__reset">
+	<body class="case-study-body__reset" style="background-color: #f6f7fb">
 		<!--[if lt IE 7]>
 			<p class="browsehappy"
 				>You are using an <strong>outdated</strong> browser. Please
@@ -21,6 +21,7 @@
 			>
 		<![endif]-->
 
+		<!-- Top Level Navigation -->
 		<div
 			class="nav-container main-page-constraint-container cs-nav__container--layout"
 		>
@@ -64,7 +65,9 @@
 			</nav>
 		</div>
 
+		<!-- Main Case Study Article Content  -->
 		<main class="main-grid__grid-structure">
+			<!-- Case Study Title Group -->
 			<header class="cs-title-group__main-title--layout">
 				<h1 class="cs-title-group__title--text text__title--h1">
 					Product Design Lessons from Designing and Building 5 Websites for a
@@ -79,17 +82,21 @@
 				</p>
 			</header>
 
-			<aside class="cs-image__5-pictures-01 cs-image__caption--layout tag-span">
-				<img
-					class="cs-image"
-					src="assets/case-study-pictures/FCC-5-Projects.png"
-					alt="5 completed projects displayed in a spread out grid"
-				/>
-				<caption>
-					The five completed websites — links to each live site found below.
-				</caption>
+			<!-- Image-01 // Picture of all 5 websites -->
+			<aside class="cs-image__5-pictures-01">
+				<figure class="cs-image__caption--layout tag-span">
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="5 completed projects displayed in a spread out grid"
+					/>
+					<figcaption>
+						The five completed websites — links to each live site found below.
+					</figcaption>
+				</figure>
 			</aside>
 
+			<!-- Table of Contents -->
 			<section
 				class="cs-article__table-of-contents-container
                 cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
@@ -118,8 +125,9 @@
 				</section>
 			</section>
 
+			<!-- Top Level Article layout -->
 			<article class="cs-article-layout">
-				<!-- <article> -->
+				<!-- Biggest Lessons -->
 				<summary
 					class="
 					cs-article__text--type-constraints
@@ -131,58 +139,101 @@
 					<h2
 						class="
 						text__supporting-title--style
-					cs-article__text--heading"
+					cs-article__text--heading
+					"
 					>
 						5 Biggest Lessons:
 					</h2>
 					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
+						INTRO SENTENCE OF LESSONS LEARNT
 					</p>
-					<ul class="cs-article__summary-ol">
+					<!-- <ol class="cs-article__summary-ol" start="1"> -->
+					<ol class="cs-article__table-of-contents-ol" start="1">
 						<li>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-							ac odio non augue consequat molestie eget quis mauris. Class
-							aptent taciti sociosqu ad litora torquent per conubia nostra
+							Set the project up for success from the start. That means
+							<strong>always using</strong> responsive and fluid design
+							principles, establishing base grid systems early, and using
+							system-design for colours, layout and typography.
 						</li>
 						<li>
-							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
-							vulputate elit, convallis ultricies ligula. Duis in dolor
-							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
-							Suspendisse egestas imperdiet ipsum a posuere.
+							The most
+							<strong>important product is the final deployed design</strong>,
+							having a cool idea in a design tool loses its shine if it makes
+							the product more difficult to use or not functional.
 						</li>
 						<li>
-							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
-							a. Maecenas sit amet consequat dolor.
+							Organise everything in a usable, clear way. This helps you keep
+							working on and adding additional design functionality as you
+							progress.
 						</li>
 						<li>
-							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
-							Praesent tempor ante quis pharetra blandit.
+							With each different 'brand identity', each project has similar
+							base foundations, especially in Typography, Layout and Spacing.
 						</li>
 						<li>
-							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
-							posuere.
+							Use a step by step process by starting with core functionality,
+							then adding additional styles, layout and structure at each step.
+							Think about the core goal of the product, build that function,
+							then add on from there with <strong>required extensions</strong>.
 						</li>
-					</ul>
+					</ol>
 					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
+						CLOSING SENTENCE
 					</p>
 				</summary>
+
+				<!-- IMAGE 02 // Picture of CSS Stats Compilation? -->
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Design Process -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Applying a Consistent Process
+					</h2>
+					<p>
+						PROCESS DESCRIPTION
+					</p>
+				</section>
+
+				<!-- Project Goals & Approach -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Goals and Overall Approach
+					</h2>
+					<p>
+						GOALS & APPROACH for PROJECT
+					</p>
+				</section>
+
+				<!-- Design Constraints -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Defining Design Constraints
+					</h2>
+					<p>
+						Constraints: FreeCodeCamps, Jasons, Design Best Practices
+					</p>
+				</section>
 
 				<aside
 					class="cs-image__5-pictures-01
@@ -193,192 +244,345 @@
 					<img
 						class="cs-image"
 						src="assets/case-study-pictures/FCC-5-Projects.png"
-						alt="5 completed projects displayed in a spread out grid"
+						alt="IMAGE 02"
 					/>
 					<caption>
-						The five completed websites — links to each live site found below.
+						IMAGE 02
 					</caption>
 				</aside>
 
+				<!-- Project 1 -->
 				<section
 					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
 				>
 					<h2 class="text__supporting-title--style cs-article__text--heading">
-						5 Biggest Lessons:
+						Project 1: Designing a Tribute Page
 					</h2>
 					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
-					</p>
-					<ul class="cs-article__summary-ol">
-						<li>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-							ac odio non augue consequat molestie eget quis mauris. Class
-							aptent taciti sociosqu ad litora torquent per conubia nostra
-						</li>
-						<li>
-							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
-							vulputate elit, convallis ultricies ligula. Duis in dolor
-							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
-							Suspendisse egestas imperdiet ipsum a posuere.
-						</li>
-						<li>
-							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
-							a. Maecenas sit amet consequat dolor.
-						</li>
-						<li>
-							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
-							Praesent tempor ante quis pharetra blandit.
-						</li>
-						<li>
-							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
-							posuere.
-						</li>
-					</ul>
-					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
-					</p>
-				</section>
-
-				<section
-					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
-				>
-					<h2 class="text__supporting-title--style cs-article__text--heading">
-						5 Biggest Lessons:
-					</h2>
-					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
-					</p>
-					<ul class="cs-article__summary-ol">
-						<li>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-							ac odio non augue consequat molestie eget quis mauris. Class
-							aptent taciti sociosqu ad litora torquent per conubia nostra
-						</li>
-						<li>
-							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
-							vulputate elit, convallis ultricies ligula. Duis in dolor
-							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
-							Suspendisse egestas imperdiet ipsum a posuere.
-						</li>
-						<li>
-							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
-							a. Maecenas sit amet consequat dolor.
-						</li>
-						<li>
-							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
-							Praesent tempor ante quis pharetra blandit.
-						</li>
-						<li>
-							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
-							posuere.
-						</li>
-					</ul>
-					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
-					</p>
-				</section>
-
-				<section
-					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
-				>
-					<h2 class="text__supporting-title--style cs-article__text--heading">
-						5 Biggest Lessons:
-					</h2>
-					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
-					</p>
-					<ul class="cs-article__summary-ol">
-						<li>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-							ac odio non augue consequat molestie eget quis mauris. Class
-							aptent taciti sociosqu ad litora torquent per conubia nostra
-						</li>
-						<li>
-							Per inceptos himenaeos. Pellentesque non laoreet libero. Proin in
-							vulputate elit, convallis ultricies ligula. Duis in dolor
-							efficitur, varius massa in, faucibus nunc. Donec ornare leo lorem.
-							Suspendisse egestas imperdiet ipsum a posuere.
-						</li>
-						<li>
-							Morbi egestas pharetra ipsum, condimentum lobortis nulla interdum
-							a. Maecenas sit amet consequat dolor.
-						</li>
-						<li>
-							Fusce ac velit laoreet, tincidunt ipsum nec, dapibus nulla.
-							Praesent tempor ante quis pharetra blandit.
-						</li>
-						<li>
-							Donec ornare leo lorem. Suspendisse egestas imperdiet ipsum a
-							posuere.
-						</li>
-					</ul>
-					<p>
-						CharacterCounter is a simple, lightweight tool to count how many
-						characters you’ve entered into a simple textbox. Focused on working
-						as quickly as possible, CharacterCounter gets you the information
-						you need exactly when you need it. Then, you can get back to what
-						you were doing. Having a precise, easy way to count the number of
-						characters they’re using helps writers be measured and deliberate
-						when they’re writing, editing and creating content. This can be
-						useful for writing headlines, ad copy, tweets, email subject lines,
-						designing interfaces or filling in web forms.
+						Technological innovators
 					</p>
 				</section>
 
 				<aside
-					class="cs-image__5-pictures-01 cs-image__caption--layout tag-span cs-article__layout--64px-spacer"
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
 				>
 					<img
 						class="cs-image"
 						src="assets/case-study-pictures/FCC-5-Projects.png"
-						alt="5 completed projects displayed in a spread out grid"
+						alt="IMAGE 02"
 					/>
 					<caption>
-						The five completed websites — links to each live site found below.
+						IMAGE 02
 					</caption>
 				</aside>
+
+				<!-- Project 2 -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Project 2: Designing a Sign-up Form
+					</h2>
+					<p>
+						Design Review sign-up form
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Project 3 -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Project 3: Designing a Product Landing page
+					</h2>
+					<p>
+						Cush's Chili Sauce
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Project 4 -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Project 4: Designing a Technical Documentation Page
+					</h2>
+					<p>
+						Seed CSS
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Project 5 -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Project 5: Designing a Portfolio Presentation Page
+					</h2>
+					<p>
+						Presenting the 5 FreeCodeCamp projects
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Results & outcomes -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Results and Outcomes
+					</h2>
+					<p>
+						Final results, outcomes
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+					cs-image__caption--layout
+					tag-span cs-article__layout--64px-spacer
+					full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Lessons -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Lessons
+					</h2>
+					<p>
+						Overall lessons in more details
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+				cs-image__caption--layout
+				tag-span cs-article__layout--64px-spacer
+				full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<!-- Next steps -->
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Next steps
+					</h2>
+					<p>
+						Next steps; continuing the learning journey
+					</p>
+				</section>
+
+				<aside
+					class="cs-image__5-pictures-01
+				cs-image__caption--layout
+				tag-span cs-article__layout--64px-spacer
+				full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<aside
+					class="cs-image__5-pictures-01
+			cs-image__caption--layout
+			tag-span cs-article__layout--64px-spacer
+			full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<aside
+					class="cs-image__5-pictures-01
+		cs-image__caption--layout
+		tag-span cs-article__layout--64px-spacer
+		full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="assets/case-study-pictures/FCC-5-Projects.png"
+						alt="IMAGE 02"
+					/>
+					<caption>
+						IMAGE 02
+					</caption>
+				</aside>
+
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<header>
+						<h3>
+							Want to read more?
+						</h3>
+					</header>
+					<p>
+						Read the
+						<a href="">Character Counter Case Study, </a> with details on
+						launching on Product Hunt, iterating based on feedback and building
+						a tool to use daily.
+					</p>
+					<p
+						>Or checkout my <a href="">Blog</a> for posts on Design, Strategy,
+						Code & anything else I've found been thinking about.
+					</p>
+				</section>
 			</article>
 		</main>
+
+		<footer class="footer-style footer--layout cs-footer__layout">
+			<ul class="footer-flex-container footer__unordered-list--layout">
+				<p class="footer-text-style name-full">Social ✌️</p>
+
+				<li>
+					<a href="https://twitter.com/jasontcrabtree">
+						<img
+							src="/assets/Twitter-Logo.svg"
+							alt="Twitter"
+							class="socialIcons"
+						/>
+					</a>
+				</li>
+				<li>
+					<a href="https://blog.jasontcrabtree.com/feed.xml">
+						<img src="/assets/RSS.svg" alt="RSS" class="socialIcons" />
+					</a>
+				</li>
+				<li>
+					<a href="https://dribbble.com/jasontcrabtree">
+						<img
+							src="/assets/dribbble-logo.svg"
+							alt="Dribbble"
+							class="socialIcons"
+						/>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/jasontcrabtree">
+						<img
+							src="/assets/GitHub-Logo.svg"
+							alt="GitHub"
+							class="socialIcons"
+						/>
+					</a>
+				</li>
+			</ul>
+		</footer>
 
 		<script src="" async defer></script>
 	</body>
