@@ -4,15 +4,10 @@
 - Links / check links to the things
 */
 
-@import url("https://rsms.me/inter/inter.css");
-html {
-	font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-	html {
-		font-family: "Inter var", -apple-system, BlinkMacSystemFont, sans-serif;
-	}
+body,
+a {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 p,
@@ -78,7 +73,6 @@ nav ul li a {
 	font-size: 18px;
 	line-height: 1;
 	text-decoration: underline;
-	font-family: "Inter var", sans-serif;
 }
 
 .primary-nav__li--hover-state a:hover {
