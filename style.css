@@ -644,6 +644,10 @@ p {
 	margin: 8px 0 0px 0;
 }
 
+.list-paragraph .cs-text__article--h3 {
+	margin-bottom: -8px;
+}
+
 .cs-article__table-of-contents-ol {
 	padding-inline-start: 24px;
 }
