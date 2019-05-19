@@ -554,10 +554,6 @@ p,
 	background: var(--background-white);
 }
 
-p {
-	/* line-height: 1.45; */
-}
-
 /* Case-Study Styles */
 
 .main-grid__grid-structure {
@@ -585,6 +581,13 @@ p {
 	width: 100vw;
 	margin-left: 50%;
 	transform: translateX(-50%);
+}
+
+.cs-article__divider-line {
+	margin: 96px auto;
+	height: 2px;
+	width: 100%;
+	background: var(--support-brand-color);
 }
 
 .full-bleed--less-margin {
@@ -640,7 +643,6 @@ p {
 .cs-text__article--h3 {
 	color: var(--var(--grey-500));
 	text-decoration: underline;
-	/* margin: 0 0 0 1.5rem; */
 	margin: 8px 0 0px 0;
 }
 
@@ -682,12 +684,10 @@ p {
 }
 
 .text__supporting-title--style {
-	/* color: var(--grey-500); */
-	/* color: var(--grey-600); */
 	color: var(--primary-brand-color);
 	font-weight: bold;
 	font-size: 32px;
-	margin: 16px 0;
+	margin: 0 0 16px 0;
 }
 
 .cs-article__text--subtitle {
@@ -738,11 +738,11 @@ p {
 
 @media screen and (max-width: 820px) {
 	.main-grid__grid-structure {
-		margin: 24px 8px 48px 8px;
+		margin: 24px 8px 0px 8px;
 		grid-template-columns: 1fr;
 		grid-column: 1 / -1;
 		padding: 1rem;
-		margin: 24px auto;
+		margin: 24px auto 0px auto;
 		max-width: 67ch;
 		width: auto;
 	}
@@ -811,7 +811,19 @@ p {
 	.cs-footer__layout {
 		max-width: 36ch;
 		width: auto;
-		margin: 48px auto 72px auto;
+		margin: 0px auto 96px auto;
+	}
+
+	.cs-article__layout--64px-spacer {
+		margin-top: 32px;
+		margin-bottom: 32px;
+	}
+
+	.cs-article__divider-line {
+		margin: 64px auto;
+		height: 2px;
+		width: 72%;
+		background: var(--support-brand-color);
 	}
 }
 
@@ -824,8 +836,5 @@ figure {
 
 figcaption {
 	margin-top: 8px;
-}
-
-caption {
-	margin-top: 8px;
+	margin-bottom: 8px;
 }
