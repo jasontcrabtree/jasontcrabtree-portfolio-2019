@@ -266,9 +266,9 @@ p,
 }
 
 .tag-span {
-	font-size: 14px;
+	font-size: 16px;
 
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 500;
 	color: var(--grey-500);
 }
@@ -676,9 +676,9 @@ p {
 	width: 100%;
 }
 
-.cs-image__caption--layout {
+.cs-image__caption--layout figcaption {
 	display: grid;
-	justify-items: right;
+	justify-items: left;
 }
 
 .text__supporting-title--style {
@@ -718,7 +718,7 @@ p {
 .cs-title-group__publish-info {
 	margin: 0;
 	padding: 0;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .cs-title-group__title--text {
@@ -745,6 +745,16 @@ p {
 		margin: 24px auto;
 		max-width: 67ch;
 		width: auto;
+	}
+
+	.full-bleed--less-margin {
+		/* Primary images are 94vw, reduce size by 6vw at each step */
+		width: 92vw;
+		/* margin: 1rem; */
+		/* margin-left: 50%;
+		transform: translateX(-50%); */
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.cs-nav__container--layout {
@@ -779,12 +789,17 @@ p {
 
 	.base__type--styles,
 	p {
-		font-size: 1.125;
+		font-size: 1.125px;
 		line-height: 1.5;
+	}
+
+	.cs-title-group__title--text {
+		line-height: 1.2;
 	}
 
 	.text__supporting-title--style {
 		font-size: 20px;
+		line-height: 1.2;
 	}
 
 	/* Padding within each individual element. Margin reset. Padding may be subject to change. */
@@ -798,4 +813,19 @@ p {
 		width: auto;
 		margin: 48px auto 72px auto;
 	}
+}
+
+figure {
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+figcaption {
+	margin-top: 8px;
+}
+
+caption {
+	margin-top: 8px;
 }
