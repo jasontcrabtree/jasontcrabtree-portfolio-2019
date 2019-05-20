@@ -687,7 +687,7 @@ p,
 	color: var(--primary-brand-color);
 	font-weight: bold;
 	font-size: 32px;
-	margin: 0 0 16px 0;
+	margin: 16px 0 16px 0;
 }
 
 .cs-article__text--subtitle {
