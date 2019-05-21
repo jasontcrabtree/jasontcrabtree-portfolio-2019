@@ -28,6 +28,7 @@ aside {
 	--grey-200: #efefef;
 	--grey-500: #525e71;
 	--grey-600: #353646;
+	--grey-700: #4c5383;
 	/* --text-black: #16121d; */
 	--text-black: #060508;
 	--support-brand-color: #cbcce7;
@@ -115,10 +116,10 @@ p,
 }
 
 .text__title--h1 {
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 900;
 	padding: 0;
-	margin: 0;
+	margin: 16px 0;
 	color: var(--primary-brand-color);
 }
 
@@ -455,20 +456,16 @@ p,
 }
 
 /* Media queries for changes to nav menu */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 820px) {
 	.name-full {
 		display: none;
 	}
 }
 
 /* Screens 720px and larger */
-@media screen and (min-width: 720px) {
-	html {
-	}
-
+@media screen and (min-width: 820px) {
 	.text__title--h1 {
 		font-size: 48px;
-		line-height: 1;
 	}
 
 	.text__title--h2 {
@@ -567,7 +564,7 @@ p,
 
 .cs-article-layout {
 	grid-column: 4 / 10;
-	max-width: 67ch;
+	max-width: 64ch;
 	width: auto;
 	margin: 0 auto;
 }
@@ -641,9 +638,10 @@ p,
 }
 
 .cs-text__article--h3 {
-	color: var(--var(--grey-500));
+	color: var(--grey-500);
 	text-decoration: underline;
 	margin: 8px 0 0px 0;
+	font-size: 1.4rem;
 }
 
 .list-paragraph .cs-text__article--h3 {
@@ -736,14 +734,15 @@ p,
 	margin: 48px auto 128px;
 }
 
-@media screen and (max-width: 820px) {
+/* Screens 1200px and smaller */
+@media screen and (max-width: 1200px) {
 	.main-grid__grid-structure {
 		margin: 24px 8px 0px 8px;
 		grid-template-columns: 1fr;
 		grid-column: 1 / -1;
 		padding: 1rem;
 		margin: 24px auto 0px auto;
-		max-width: 67ch;
+		max-width: 64ch;
 		width: auto;
 	}
 
@@ -773,6 +772,8 @@ p,
 
 	.cs-article-layout {
 		grid-column: 1 / -1;
+		max-width: 60ch;
+		width: auto;
 	}
 
 	.cs-article__table-of-contents-content {
@@ -800,6 +801,10 @@ p,
 	.text__supporting-title--style {
 		font-size: 20px;
 		line-height: 1.2;
+	}
+
+	.cs-text__article--h3 {
+		font-size: 1.125rem;
 	}
 
 	/* Padding within each individual element. Margin reset. Padding may be subject to change. */
@@ -837,4 +842,8 @@ figure {
 figcaption {
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+html {
+	scroll-behavior: smooth;
 }
