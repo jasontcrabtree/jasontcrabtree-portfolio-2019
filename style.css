@@ -109,7 +109,7 @@ p,
 	color: var(--text-black);
 	/* margin: 32px 0; */
 	/* margin: 8px 0 40px 0; */
-	margin: 32px 0px 32px 0px;
+	margin: 16px 0px 40px 0px;
 }
 
 .decorative-background__background-styles--pattern {
@@ -648,9 +648,10 @@ p,
 
 .cs-text__article--h3 {
 	color: var(--grey-500);
-	text-decoration: underline;
-	margin: 8px 0 0px 0;
+	/* text-decoration: underline; */
+	margin: 24px 0 0px 0;
 	font-size: 1.4rem;
+	font-weight: 700;
 }
 
 .list-paragraph .cs-text__article--h3 {
@@ -719,7 +720,7 @@ p,
 }
 
 .cs-article__text--heading {
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .cs-title-group__publish-info {
@@ -747,9 +748,10 @@ p,
 @media screen and (max-width: 1200px) {
 	.main-grid__grid-structure {
 		margin: 24px 8px 0px 8px;
-		grid-template-columns: 1fr;
+		grid-template-columns: 100%;
 		grid-column: 1 / -1;
-		padding: 1rem;
+		/* padding: 1rem 16px; */
+		padding: 24px 16px 24px 16px;
 		margin: 24px auto 0px auto;
 		max-width: 64ch;
 		width: auto;
@@ -808,7 +810,7 @@ p,
 	}
 
 	.text__supporting-title--style {
-		font-size: 20px;
+		font-size: 24px;
 		line-height: 1.2;
 	}
 
@@ -818,7 +820,7 @@ p,
 
 	/* Padding within each individual element. Margin reset. Padding may be subject to change. */
 	.cs-article__layout--sm-media-query {
-		padding: 8px;
+		padding: 4px;
 		margin: 0px;
 	}
 
@@ -839,6 +841,19 @@ p,
 		width: 72%;
 		background: var(--support-brand-color);
 	}
+}
+
+.cs-article-layout a {
+	text-decoration: underline;
+}
+
+.tag-span-without-capitalising {
+	text-transform: none;
+}
+
+.ul-inline-text {
+	margin-top: -16px;
+	margin-bottom: 24px;
 }
 
 figure {

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<!-- Primary Meta Tags -->
+		<title>Reverse Engineering a Brand Voice</title>
+		<meta name="title" content="Jason Crabtree's Personal Portfolio" />
+		<meta
+			name="description"
+			content="My own little corner of the internet. Come in, enjoy your stay! Designer & writer. I like design, tech, people and diversity & inclusion. Kiwi. He/him."
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://jasontcrabtree.com/" />
+		<meta property="og:title" content="Jason Crabtree's Personal Portfolio" />
+		<meta
+			property="og:description"
+			content="My own little corner of the internet. Come in, enjoy your stay! Designer & writer. I like design, tech, people and diversity & inclusion. Kiwi. He/him."
+		/>
+		<meta property="og:image" content="assets/icons/Meta-image.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://jasontcrabtree.com/" />
+		<meta
+			property="twitter:title"
+			content="Jason Crabtree's Personal Portfolio"
+		/>
+		<meta
+			property="twitter:description"
+			content="My own little corner of the internet. Come in, enjoy your stay! Designer & writer. I like design, tech, people and diversity & inclusion. Kiwi. He/him."
+		/>
+		<meta property="twitter:image" content="assets/icons/Meta-image.png" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="assets/icons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="assets/icons/favicon-16x16.png"
+		/>
+	</head>
+	<body
+		class="case-study-body__reset scroll-style"
+		style="background-color: #f6f7fb"
+	>
+		<!--[if lt IE 7]>
+			<p class="browsehappy"
+				>You are using an <strong>outdated</strong> browser. Please
+				<a href="#">upgrade your browser</a> to improve your experience.</p
+			>
+		<![endif]-->
+
+		<!-- Top Level Navigation -->
+		<div
+			class="nav-container main-page-constraint-container cs-nav__container--layout"
+		>
+			<nav class="">
+				<ul
+					class="nav-flex-container primary-nav__li--hover-state cs-article__nav-ul"
+				>
+					<!-- <li class="flex-item nav-flex-item1 name-full ">
+						<a href="" class="wordmark-logo flex-item">
+							Jason
+							<br />
+							Crabtree
+						</a>
+					</li> -->
+					<li class="flex-item ">
+						<a
+							href="https://jasontcrabtree.com"
+							class="wordmark-logo flex-item"
+						>
+							JTC
+						</a>
+					</li>
+					<li class="flex-item">
+						<a href="https://jasontcrabtree.com/#portfolio">
+							Portfolio
+						</a>
+					</li>
+					<li class="flex-item">
+						<a href="https://jasontcrabtree.com/resume.pdf">
+							CV
+						</a>
+					</li>
+					<li class="flex-item">
+						<a href="https://blog.jasontcrabtree.com/">
+							Blog
+						</a>
+					</li>
+					<li class="flex-item">
+						<a href="https://jasontcrabtree.com/#contact">
+							Contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Main Case Study Article Content  -->
+		<main class="main-grid__grid-structure ">
+			<!-- Case Study Title Group -->
+			<header class="cs-title-group__main-title--layout">
+				<h1 class="cs-title-group__title--text text__title--h1">
+					Reverse Engineering a World Famous Brand Voice: Let's Sound like Slack
+				</h1>
+				<p class="text__supporting-title--style cs-article__text--subtitle">
+					A Case Study: Problem Solving Under the Hood
+				</p>
+				<p class="tag-span cs-title-group__publish-info">
+					Published 28 May 2019 ∙
+					<a href="https://twitter.com/jasontcrabtree">Jason Crabtree</a>
+				</p>
+			</header>
+
+			<!-- Image-01 // Picture of all 5 websites -->
+			<aside class="cs-image__5-pictures-01">
+				<figure class="cs-image__caption--layout tag-span">
+					<img
+						class="cs-image lazy"
+						src="assets/svg/placeholder.svg"
+						data-src=""
+						alt="PLACEHOLDER"
+					/>
+					<figcaption>
+						DOPE ASS WORD CLOUD
+					</figcaption>
+				</figure>
+			</aside>
+
+			<!-- Table of Contents -->
+			<section
+				class="cs-article__table-of-contents-container
+                cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+			>
+				<section
+					class="cs-article__table-of-contents-content
+                    cs-article__layout--sm-media-query"
+				>
+					<h2 class="text__supporting-title--style cs-article__text--heading">
+						Table of Contents:
+					</h2>
+					<ol class="cs-article__table-of-contents-ol" start="1">
+						<li>
+							<a
+								href="#introduction"
+								class="cs-article__table-of-contents-link--scroll"
+							>
+								Introduction
+							</a>
+						</li>
+						<li>
+							<a href="#elevator-pitch" class="">
+								Product Elevator Pitch
+							</a>
+						</li>
+						<li>
+							<a href="#problem-opportunity" class="">
+								Problem & Opportunity
+							</a>
+						</li>
+						<li>
+							<a href="#design-execution" class="">
+								Design Execution
+							</a>
+						</li>
+						<li>
+							<a href="#final-outcomes" class="">
+								Final Outcomes
+							</a>
+						</li>
+					</ol>
+				</section>
+			</section>
+
+			<!-- Top Level Article layout -->
+			<article
+				class="
+            cs-article-layout
+            cs-article__text--type-constraints
+            cs-article__layout--sm-media-query
+            "
+			>
+				<h2
+					id="introduction"
+					class="text__supporting-title--style cs-article__text--heading"
+				>
+					Introduction:
+				</h2>
+				<p>
+					This Case Study describes how I solved a problem I was personally
+					experiencing, and the steps along that path. In doing so, I’ve focused
+					on my problem-solving process, rather than presenting a final,
+					polished interface. That focus reflects both the context and how I
+					think about design. I firmly believe that a lot of problems can be
+					solved via spreadsheets and text documents — and that not everything
+					needs pixel-perfect presentations (although some things do need
+					that!).
+				</p>
+
+				<p>
+					If you’d like to hear more about this or anything else say hello on
+					<a href="https://twitter.com/jasontcrabtree">twitter</a> or
+					<a href="mailto:jasontcrabtree@gmail.com">via email</a>. And if you’re
+					hiring Product Designers, I’m actively looking for opportunities in
+					Dublin, London or remote!
+				</p>
+
+				<!-- <h3 class="list-paragraph cs-text__article--h3">
+					Summary:
+				</h3>
+				<p>
+					Summary of case study FINISH THIS
+				</p> -->
+
+				<h3 class="list-paragraph cs-text__article--h3">
+					Setting the Scene:
+				</h3>
+				<p>
+					A few months ago, I applied for a job at Slack. At the time I was
+					deciding between two worlds — customer operations, the field I’ve
+					spent most of my career working in, and design, my future career. As
+					you might be able to guess, I didn't get the job. However, now that
+					I’ve committed full-time to looking for design jobs, this seems like a
+					great time to talk about one of the ways I prepared for the Slack
+					interview.
+				</p>
+				<p>
+					<strong>Spoilers:</strong> I designed a small but practical solution
+					to a problem I had during the interview with Slack. That should have
+					been a hint to my design ambitions!
+				</p>
+				<p>
+					One of Slack’s strengths is its brand voice, writing and personality.
+					Their voice is something they have and continue to invest a lot of
+					time, effort and care into — and it's paying off. People love it!
+				</p>
+
+				<ul class="ul-skills-and-services ul-inline-text">
+					<li>
+						<a
+							href="https://uxdesign.cc/brands-that-are-totally-killing-it-with-voice-tone-style-and-how-you-can-too-47792613b267"
+						>
+							Brands that are totally killing it with voice, tone & style (& how
+							you can, too)
+						</a>
+					</li>
+					<li>
+						<a
+							href="https://digiday.com/uk/day-life-slacks-anna-pickard-makes-software-sound-human/"
+						>
+							Day in the Life: How Slack’s Anna Pickard makes software sound
+							human
+						</a>
+					</li>
+				</ul>
+
+				<p>
+					During the interview process I did two writing exercises, one before
+					an on-site interview and one during the on-site interview. As I was
+					preparing for these exercises, and knowing that writing is such an
+					important focus for the Slack team, I wanted to everything I could to
+					prepare. That lead to researching existing resources describing
+					Slack’s voice and brainstorming ways I could take things to the next
+					level. While doing that research I had the idea of reverse-engineering
+					their voice using historical tweets (they've tweeted 230,000 times at
+					<a href="https://twitter.com/slackhq">@SlackHQ</a>), leading to this
+					case study.
+				</p>
+				<h2
+					id="elevator-pitch"
+					class="text__supporting-title--style cs-article__text--heading cs-article__layout--64px-spacer "
+				>
+					Product Elevator Pitch
+				</h2>
+				<h3 class="list-paragraph cs-text__article--h3">
+					A Broad Description:
+				</h3>
+				<p>
+					I designed a basic method of using text analysis on historic tweets to
+					see common and repeated words and understand overall language choices.
+				</p>
+				<h3 class="list-paragraph cs-text__article--h3">
+					The Specific Circumstances:
+				</h3>
+				<p>
+					In a few sentences, I downloaded the contents of 3,200
+					<a href="https://twitter.com/slackhq">@SlackHQ</a> tweets, then used
+					an open source JavaScript CodePen to count how many times different
+					words were repeated. Based on that output, I was able to look at
+					common words and language choices. This output helped me understand
+					the language used by the Slack team, thereby using it for my writing
+					assignment.
+				</p>
+
+				<div class="list-paragraph">
+					<h3 class="list-paragraph cs-text__article--h3">
+						My Role and Focuses:
+					</h3>
+					<ul class="ul-skills-and-services">
+						<li>
+							<strong>Research:</strong> The importance of tone of voice
+						</li>
+						<li>
+							<strong>Research:</strong> Finding ways to download tweets & count
+							word usage
+						</li>
+						<li> <strong>Code:</strong> Run the code scripts needed </li>
+						<li>
+							<strong>Analysis:</strong> Using Excel to analyse the results
+						</li>
+						<li>
+							<strong>Presentation:</strong> Displaying the top words in a
+							format useful for the initial goal
+						</li>
+					</ul>
+				</div>
+
+				<figure
+					class="cs-image__5-pictures-01
+
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+						alt="Piles and piles of open books, with thousands of words facing upwards"
+					/>
+					<figcaption class="tag-span ">
+						Photo by Patrick Tomasso on
+						<a href="https://unsplash.com/photos/Oaqk7qqNh_c?">Unsplash</a>
+					</figcaption>
+				</figure>
+
+				<div class="cs-article__divider-line cs-article__layout--64px-spacer">
+				</div>
+
+				<h2
+					id="problem-opportunity"
+					class="text__supporting-title--style cs-article__text--heading cs-article__layout--64px-spacer "
+				>
+					Problem & Opportunity
+				</h2>
+
+				<h3 class="cs-text__article--h3 ">
+					Defining a How Might We Statement:
+				</h3>
+				<p>
+					<strong>How Might I</strong> effectively learn Slack’s tone of voice
+					<strong>so that I can</strong>
+					successfully finish the writing assignment part of their interview
+					process.
+				</p>
+
+				<figure
+					class="cs-image__5-pictures-01
+                cs-image__caption--layout
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160064/Slack-Brand-Voice-How-Might-We.png"
+						alt="Defining the HMW Statement and the Guiding Goal"
+					/>
+					<figcaption>
+						Defining the How Might We Statement as a Guiding Goal
+					</figcaption>
+				</figure>
+
+				<h3 class="list-paragraph cs-text__article--h3">What’s the goal?</h3>
+				<p>
+					Develop a practical understanding of the words and language used by
+					the Slack team. Then, apply what I've learn about Slack's brand voice
+					while completing the assigned writing exercise.
+				</p>
+
+				<div class="list-paragraph">
+					<h3 class="list-paragraph cs-text__article--h3">
+						What are the constraints?
+					</h3>
+					<ul class="ul-skills-and-services">
+						<li style="color:red">
+							Limited to existing technical options.My technical experience. I
+							can run scripts written by other people; I can’t write my own.
+							Limited Java
+						</li>
+						<li>
+							Limited data analysis knowledge, reducing me to straightforward
+							word count analysis, rather than more sophisticated analysis.
+						</li>
+						<li>
+							The Twitter API limits historical tweet downloads to 3,200 tweets.
+						</li>
+						<li>
+							Existing resources on the Slack voice focus on high-level creative
+							direction and how they want the customer to feel, rather than
+							practical words and language decisions.
+						</li>
+						<li>
+							As someone external to Slack, I wasn’t able to ask for help from
+							people within Slack who know and use the Slack voice daily.
+						</li>
+					</ul>
+				</div>
+
+				<h3 class="list-paragraph cs-text__article--h3">
+					Research & Preparation:
+				</h3>
+				<p>
+					Faced with this problem statement, I started by looking for existing
+					resources, blog posts, talks and presentations. This lead to
+					discovering a number of great resources. As I kept researching the
+					subject I started to see the depth of this subject, encouraging me to
+					dive in further. A few of the resources I found:
+				</p>
+
+				<div class="list-paragraph">
+					<h3 class="list-paragraph cs-text__article--h3">
+						Research on existing resources for Slack’s tone of voice:
+					</h3>
+					<ul class="ul-skills-and-services">
+						<li>
+							<a
+								href="https://www.quora.com/How-do-you-reflect-the-diversity-at-Slack-with-voice"
+							>
+								How do you reflect the diversity at Slack with voice?
+							</a>
+						</li>
+						<li>
+							<a href="https://slackhq.com/the-story-of-beeftweets">
+								The story of #beeftweets
+							</a>
+						</li>
+						<li>
+							<a href="https://slackhq.com/words-are-hard">
+								Words are hard
+							</a>
+						</li>
+						<li>
+							<a href="https://slackhq.com/one-voice-many-hands">
+								One voice, many hands
+							</a>
+						</li>
+						<li>
+							<a href="https://www.relay.fm/presentable/15">
+								Presentable Podcast #15: The Voice of Slack
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<p>
+					While these provided a foundational starting point, I still wasn’t
+					sure of a few things. For example, how does Slack use the word
+					‘sorry’? Is ‘sorry’ reserved for severe mistakes, or commonly used in
+					polite conversation? (Answer: It's used in about 1/3rd of the tweets I
+					downloaded)
+				</p>
+				<p>
+					I then commited to the idea of downloading and analysing Slack’s
+					tweets to see the exact words they used. At that point I had a second
+					research path; figure out how to execute my plan.
+				</p>
+
+				<p>
+					While I had a hunch my idea was possible, my own coding experience
+					with HTML & CSS didn't exactly supporting downloading tweets from the
+					Twitter API or running complex data analysis. Because of these
+					constraints I focused on finding open source and easy to use solutions
+					for the step by step functions I needed.
+				</p>
+
+				<div class="list-paragraph">
+					<h3 class="list-paragraph cs-text__article--h3">
+						Research to Find the Required Code Scripts:
+					</h3>
+					<ul class="ul-skills-and-services">
+						<li>
+							An open source Python script to download Tweets via the Twitter
+							API (via
+							<a href="https://github.com/tweepy/tweepy">GitHub: Tweepy</a>)
+						</li>
+						<li
+							>A way to count how many times, different words were used and
+							repeated. That led to an open source JavaScript CodePen (original:
+							<a href="https://codepen.io/lalwanivikas/"
+								>CodePen: Lalwanivikas/Word-Counter</a
+							>)
+						</li>
+						<li>
+							Tweaks to the initial CodePen for my purposes (<a
+								href="https://codepen.io/jasontcrabtree/pen/bZdqXm"
+								>CodePen: Jasontcrabtree/Word-Counter</a
+							>)
+						</li>
+						<li>
+							Googling basic Excel filtering to decipher the results.
+						</li>
+					</ul>
+				</div>
+
+				<p>
+					The outcome was a set of tools ready to be creatively glued together
+					to achieve my goals.
+				</p>
+
+				<div class="cs-article__divider-line cs-article__layout--64px-spacer">
+				</div>
+
+				<h2
+					id="design-execution"
+					class="text__supporting-title--style cs-article__text--heading cs-article__layout--64px-spacer"
+				>
+					Design Execution:
+				</h2>
+
+				<h3
+					id="designing-the-solution"
+					class="list-paragraph cs-text__article--h3"
+					>Designing the Solution:</h3
+				>
+
+				<p>
+					Because Slack has such a strong presence on
+					<a href="https://twitter.com/slackhq">Twitter (233,000+ tweets)</a>, I
+					immediately knew I wanted to use tweets as my data source. At that
+					point, it was about figuring out the logistics of downloading those
+					tweets. From my research, I also knew that the Slack team used a
+					slightly different brand voice for tweets compared to blog posts or
+					press releases. Based on the writing assignment I was given — the
+					Twitter voice fit my particular use-case.
+				</p>
+
+				<p>
+					I experimented with a few resources and found that a lot of existing
+					tools either <strong>A)</strong> Were outside of my budget,
+					<strong>B)</strong> Didn’t export a CSV/Excel readable data file, or
+					<strong>C)</strong> I couldn’t get to work at all.
+				</p>
+
+				<p>
+					Once I found Tweepy (<a href="http://www.tweepy.org/">
+						http://www.tweepy.org/ </a
+					>), the actual design execution became simple. Tweepy is a python
+					script that you can run from your terminal after signing up for a
+					Twitter Developer API key. Using that script, you choose which profile
+					to download tweets from, then execute the script like so. Here’s me
+					downloading tweets from my account!
+				</p>
+				<p>
+					I’ve never written or used Python before — so figuring this out was a
+					real highlight, showing how much you can achieve with the right google
+					searches.
+				</p>
+
+				<figure
+					class="cs-image__5-pictures-01
+                cs-image__caption--layout
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160579/downloading-tweets-using-terminal.png"
+						alt="A terminal window showing 3053 tweets downloaded"
+					/>
+					<figcaption
+						>Downloading tweets fron my personal twitter account.</figcaption
+					>
+				</figure>
+
+				<p>
+					The
+					<a href="https://codepen.io/lalwanivikas/">Codepen Word Counter</a> I
+					used required some minor tweaks. These tweaks included altering the
+					‘stopWords’ section and increasing the number of top words shown from
+					4 to 500. Those changes were all trial and error — fair warning!
+				</p>
+
+				<figure
+					class="cs-image__5-pictures-01
+                cs-image__caption--layout
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/top-words-used-by-slack.png"
+						alt=""
+					/>
+					<figcaption
+						>The top words used by Slack. A lot of foundational words and 's and
+						're.</figcaption
+					>
+				</figure>
+
+				<h3 class="list-paragraph cs-text__article--h3">
+					Breaking Down the Process:
+				</h3>
+				<p>
+					This process breakdown shows that this was very much a
+					behind-the-scenes, hacking-things-together way to achieve the desired
+					goal. I think the method I used to solve my problem has a lot of merit
+					as a product (maybe one day), and equally this process would be one of
+					the first things I’d work on improving!
+				</p>
+
+				<h3 class="list-paragraph cs-text__article--h3">
+					Data Download & Analysis Steps:
+				</h3>
+				<ol class="cs-article__table-of-contents-ol " start="1">
+					<li>
+						Use Tweepy to download tweets from the
+						<a href="https://twitter.com/slackhq">@SlackHQ</a> Twitter handle.
+					</li>
+					<li>
+						Load the exported CSV file and copy the tweets.
+					</li>
+					<li>
+						Paste the tweets into the Word Counter Codepen.
+					</li>
+					<li>
+						Export the words & word usage counts from the CodePen*.
+					</li>
+					<li>
+						Paste the top words back into Excel to filter and review.
+					</li>
+					<li>
+						Note down keywords, trends and phrases for final use.
+					</li>
+				</ol>
+
+				<p class="tag-span tag-span-without-capitalising">
+					*The CodePen disabled copying of the Top Words, so I used Chrome
+					DevTools to copy the code element into a Code Text Editor. Then
+					deleted the HTML tags to copy the final results into Excel. If you
+					need help with this contact me on Twitter!
+				</p>
+
+				<figure
+					class="cs-image__5-pictures-01
+                cs-image__caption--layout
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559161175/Tweet-Download-Process.png"
+						alt="Breaking down the process. Copying and pasting text from one file to the next."
+					/>
+				</figure>
+
+				<h3 class="list-paragraph cs-text__article--h3">
+					Summarising the Results:
+				</h3>
+				<p>And finally, Voilà! We have our results.</p>
+				<p>
+					The results show trends, repeated words and language choices — all
+					wrapped up in a helpful list ranked by word use frequency. These
+					results gave clear direction for my use-case, helping me shape my
+					writing based on the brand voice used by the Slack team.
+				</p>
+				<p>
+					While the final result (a list of words based on word usage count) is
+					relatively unsophisticated — it gave me what I needed to complete my
+					writing assignment.
+				</p>
+				<p>
+					I did later find out that the writing assignment was mostly a hygiene
+					test, and as such, I probably spent FAR too much time on it. But
+					that’s a story for another time.
+				</p>
+				<figure
+					class="cs-image__5-pictures-01
+                cs-image__caption--layout
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/columns-of-different-words-used.png"
+						alt="A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)"
+					/>
+					<figcaption>
+						A few words repeatedly Slack used between February and March 2019
+						(This isn’t all of them either!)
+					</figcaption>
+				</figure>
+
+				<div class="cs-article__divider-line cs-article__layout--64px-spacer">
+				</div>
+
+				<h2
+					id="final-outcomes"
+					class="text__supporting-title--style cs-article__text--heading"
+				>
+					Final Outcomes
+				</h2>
+
+				<h3 class="list-paragraph cs-text__article--h3">
+					The Future of the Concept:
+				</h3>
+				<p>
+					While this project was great for my particular use-case, and I’ve
+					finished what I wanted to achieve with this concept, considering the
+					idea after the fact I think it has a lot of potential depth as a real
+					product. Writing, communication and a strong brand voice can be a
+					massive differentiator between companies, and anything that helps
+					companies, teams and individuals stand out has a lot of value.
+				</p>
+				<p>
+					There is a lot of further development possible with this base idea.
+					Here are a few of those ideas. Note: these are all abstract ideas —
+					not something I plan to build anytime soon!
+				</p>
+
+				<div class="list-paragraph">
+					<h3 class="list-paragraph cs-text__article--h3">
+						What would take this to the next level?
+					</h3>
+					<ul class="ul-skills-and-services">
+						<li>
+							Wrap the core functionality inside a web app within a consolidated
+							UI so that you enter the Twitter handle and immediately download
+							results.
+						</li>
+						<li>
+							Add more sophisticated data analysis options.
+						</li>
+						<li>
+							Add support for counting emojis! 🎉😊
+						</li>
+						<li>
+							Explore additional data sources for adding text data. It doesn't
+							have to be constrainted to Twitter!
+						</li>
+					</ul>
+				</div>
+
+				<figure
+					class="cs-image__5-pictures-01
+                cs-image__caption--layout
+                tag-span cs-article__layout--64px-spacer
+                full-bleed--less-margin"
+				>
+					<img
+						class="cs-image"
+						src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559158952/Brand-Voice-Mock-Up.jpg"
+						alt="A simple mock-up of a web-app containing the same text analysis functionality"
+					/>
+					<figcaption>
+						A simple mock-up of a web-app containing the same text analysis
+						functionality
+					</figcaption>
+				</figure>
+
+				<div class="list-paragraph">
+					<h3 class="list-paragraph cs-text__article--h3">
+						What would turn this into a large scale serious project? A few
+						ideas:
+					</h3>
+					<ul class="ul-skills-and-services">
+						<li>
+							A chrome extension similar to Grammarly that reads your writing
+							and suggests words based on your companies tone of voice.
+						</li>
+						<li>
+							A text editor that provides recommendations as you type based on
+							the pre-set tone of voice guidelines.
+						</li>
+						<li>
+							Classification for different contexts (e.g. this is the tone of
+							voice for Customer Support vs Twitter vs Help Documentation.
+						</li>
+					</ul>
+				</div>
+
+				<!-- <h3 class="list-paragraph cs-text__article--h3">Outcomes:</h3>
+				<p>
+					Design outcomes (measured against initial goals) Let’s refer back
+				</p> -->
+
+				<h3 class="list-paragraph cs-text__article--h3">Summary:</h3>
+				<p>
+					Lessons from the project
+				</p>
+
+				<p>
+					<strong>PS:</strong> I want to give a shout-out to
+					<a href="https://twitter.com/annapickard">@annapickard</a>, who I
+					highly recommend you follow on Twitter. Their commitment to words
+					inspired me to invest the time in this — and I’d encourage you to
+					check out their podcast appearances and blog posts listed throughout
+					this post.
+				</p>
+
+				<section
+					class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer"
+				>
+					<header>
+						<h3>
+							Want to read more?
+						</h3>
+					</header>
+					<p>
+						Read my
+						<a
+							href="https://medium.com/@jasontcrabtree/building-character-counter-2670b30a7ef0"
+							>Character Counter Case Study,
+						</a>
+						with details on launching on Product Hunt, iterating based on
+						feedback and building a tool to use daily.
+					</p>
+					<p
+						>Or checkout my
+						<a href="https://blog.jasontcrabtree.com">Blog</a> for posts on
+						Design, Strategy, Code & anything else I've found been thinking
+						about.
+					</p>
+				</section>
+			</article>
+		</main>
+
+		<footer class="footer-style footer--layout cs-footer__layout">
+			<ul class="footer-flex-container footer__unordered-list--layout">
+				<p class="footer-text-style name-full">Social ✌️</p>
+
+				<li>
+					<a href="https://twitter.com/jasontcrabtree">
+						<img
+							src="/assets/icons/Twitter-Logo.svg"
+							alt="Twitter"
+							class="socialIcons"
+						/>
+					</a>
+				</li>
+				<li>
+					<a href="https://blog.jasontcrabtree.com/feed.xml">
+						<img src="/assets/icons/Rss.svg" alt="RSS" class="socialIcons" />
+					</a>
+				</li>
+				<li>
+					<a href="https://dribbble.com/jasontcrabtree">
+						<img
+							src="/assets/icons/dribbble-logo.svg"
+							alt="Dribbble"
+							class="socialIcons"
+						/>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/jasontcrabtree">
+						<img
+							src="/assets/icons/GitHub-Logo.svg"
+							alt="GitHub"
+							class="socialIcons"
+						/>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="yall.min.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", yall);
+		</script>
+	</body>
+</html>
