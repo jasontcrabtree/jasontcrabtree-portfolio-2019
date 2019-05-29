@@ -793,6 +793,10 @@ p,
 
 	.cs-article__table-of-contents-container {
 		grid-column: 1 / -1;
+		padding: 16px !important;
+
+		max-width: 32ch;
+		width: auto;
 	}
 
 	.cs-article__summary-ol {
