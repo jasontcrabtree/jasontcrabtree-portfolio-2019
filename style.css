@@ -283,9 +283,10 @@ p,
 }
 
 .character-counter-illu-container {
-	height: 92%;
+	/* height: 92%; */
 	width: 92%;
-
+	/* padding: 8px; */
+	padding-bottom: 16px;
 	margin: 4%;
 	align-items: center;
 	justify-content: center;
