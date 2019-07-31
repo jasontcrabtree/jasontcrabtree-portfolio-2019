@@ -42,6 +42,7 @@
 		/>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="racs-style.css" />
 		<link rel="stylesheet" href="style.css" />
 		<link
 			rel="icon"
@@ -59,8 +60,27 @@
 	<body
 		class="base__type--styles decorative-background__background-styles decorative-background__background-styles--pattern body__scroll-behaviour"
 	>
+		<nav class="nav__container--layout nav__container--style nav-styles-reset">
+			<ul class="nav__links--style nav__links--layout">
+				<li class="nav__link--logo nav__link--logo-style ">
+					<a href="https://jasontcrabtree.com/#">JTC</a>
+				</li>
+				<li class="nav__link-items--layout nav__link-items--mobile">
+					<a href="https://jasontcrabtree.com/#portfolio">Portfolio</a>
+				</li>
+				<li class="nav__link-items--layout">
+					<a href="https://jasontcrabtree.com/resume.pdf">CV</a>
+				</li>
+				<li class="nav__link-items--layout">
+					<a href="https://blog.jasontcrabtree.com/">Blog</a>
+				</li>
+				<li class="nav__link-items--layout">
+					<a href="https://jasontcrabtree.com/#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
 		<div class="main-page-constraint-container">
-			<div class="nav-container">
+			<!-- <div class="nav-container">
 				<nav class="navigation__layout">
 					<ul class="nav-flex-container primary-nav__li--hover-state">
 						<li class="flex-item nav-flex-item1 name-full">
@@ -97,7 +117,7 @@
 						</li>
 					</ul>
 				</nav>
-			</div>
+			</div> -->
 
 			<header class="hero-title-block full-bleed-utility">
 				<h1 class="text__title--h1  hero-title-heading">
@@ -112,19 +132,19 @@
 				<section class="section__container--layout">
 					<h2 class="text__title--h2">Kia Ora!</h2>
 					<p class="paragraph-about-me">
-						Hello, I’m Jason. I solve difficult problems for people and
-						businesses. I do that thoughtfully, creatively and pragmatically.
-						I'm comfortable with a wide range of problems, and the more
-						ambiguity the better! I love bringing clarity to chaos.
+						Hello, I’m Jason. I use design to solve difficult problems. I do
+						that thoughtfully, creatively and pragmatically. I'm comfortable
+						with a wide range of problems, with the more ambiguity the better! I
+						love bringing clarity to chaos.
 					</p>
 
 					<p class="paragraph-about-me">
 						I’m motivated by mission-driven work, shared values and a diverse,
 						welcoming and inclusive workplace culture. I’m a team player,
 						empathetic and good under pressure. All in all, I'm currently job
-						hunting for roles in <strong>London, Dublin or remote</strong> and
-						I’d love to learn more about how we can work together and how I can
-						contribute to your team.
+						hunting for roles in <strong>London</strong> and I’d love to learn
+						more about how we can work together and how I can contribute to your
+						team.
 					</p>
 
 					<a href="#contact" class="contact-me-button">Contact Me</a>
@@ -133,8 +153,11 @@
 					class=" section__container--layout group-case-studies"
 					id="portfolio"
 				>
-					<h2 class="text__title--h2">Case Studies</h2>
+					<h2 class="text__title--h2">
+						Case Studies
+					</h2>
 
+					<!-- Character Counter Case Study -->
 					<article class="case-study-article">
 						<div class="card-case-study">
 							<a
@@ -163,6 +186,72 @@
 									</p>
 									<span class="case-study-link"
 										>Read CharacterCounter Case Study</span
+									>
+								</div>
+							</a>
+						</div>
+					</article>
+
+					<!-- Repairer Allocation Case Study -->
+					<article class="case-study-article">
+						<div class="card-case-study">
+							<a
+								href="https://jasontcrabtree.com/repairer-allocation"
+								alt="Repairer Allocation Case Study Link"
+							>
+								<div
+									class="character-counter-illu-container illus-background-color4"
+								>
+									<span class="tag-span">Human Centered Service Design</span>
+									<img
+										class="svg-case-study-illustration"
+										src="assets/svg/Repairer-allocation.svg"
+										alt="The four swimlanes representing the service design blueprint of repairer allocation. Illustration"
+									/>
+								</div>
+
+								<div class="group-case-study-text">
+									<h3 class="text__title--h3">
+										Design Discovery: Car Insurance Claims
+									</h3>
+									<p>
+										Lightweight tool to count the no. of characters used.
+										Perfect for designing text interfaces and writing headlines
+										and copy.
+									</p>
+									<span class="case-study-link">
+										Read Design Discovery Case Study
+									</span>
+								</div>
+							</a>
+						</div>
+					</article>
+
+					<!-- FreeCodeCamp Case Study -->
+					<article class="case-study-article">
+						<div class="card-case-study">
+							<a href="/freecodecamp">
+								<div
+									class="character-counter-illu-container illus-background-color2"
+								>
+									<span class="tag-span">Website design & code</span>
+									<img
+										class="svg-case-study-illustration"
+										src="assets/svg/FCC-Certificate.svg"
+										alt="Simplified illustration of the Character Counter Website"
+									/>
+								</div>
+
+								<div class="group-case-study-text">
+									<h3 class="text__title--h3">
+										Visual Web Design Certificate with FreeCodeCamp
+									</h3>
+									<p>
+										A case study about designing and building five websites for
+										the FreeCodeCamp Responsive Web Design Project certificate.
+									</p>
+									<span class="case-study-link"
+										>Read FreeCodeCamp Certificate Case Study</span
 									>
 								</div>
 							</a>
@@ -202,37 +291,6 @@
 						</div>
 					</article>
 				</section>
-
-				<!-- FreeCodeCamp Case Study -->
-				<article class="case-study-article">
-					<div class="card-case-study">
-						<a href="/freecodecamp">
-							<div
-								class="character-counter-illu-container illus-background-color2"
-							>
-								<span class="tag-span">Website design & code</span>
-								<img
-									class="svg-case-study-illustration"
-									src="assets/svg/FCC-Certificate.svg"
-									alt="Simplified illustration of the Character Counter Website"
-								/>
-							</div>
-
-							<div class="group-case-study-text">
-								<h3 class="text__title--h3">
-									Visual Web Design Certificate with FreeCodeCamp
-								</h3>
-								<p>
-									A case study about designing and building five websites for
-									the FreeCodeCamp Responsive Web Design Project certificate.
-								</p>
-								<span class="case-study-link"
-									>Read FreeCodeCamp Certificate Case Study</span
-								>
-							</div>
-						</a>
-					</div>
-				</article>
 
 				<section class="section__container--layout ">
 					<h2 class="text__title--h2">Things I can help with:</h2>
@@ -360,7 +418,7 @@
 							Product Designer, UX or Web Designer.</span
 						>
 						I'm flexible and open to in-house or agency roles in
-						<span class="span-text-callout">London, Dublin or Remote.</span></p
+						<span class="span-text-callout">London.</span></p
 					>
 
 					<p>
@@ -377,7 +435,7 @@
 					</a>
 				</section>
 			</main>
-			<footer class="footer-style footer--layout">
+			<footer class="repairer-allocation footer-style footer--layout">
 				<ul class="footer-flex-container footer__unordered-list--layout">
 					<p class="footer-text-style name-full">Social ✌️</p>
 
