@@ -300,7 +300,8 @@ a:any-link {
 }
 
 .nav__container--style {
-	background-color: #f8cb47;
+	/* background-color: #f8cb47; */
+	background-color: var(--brand-600);
 }
 
 .nav__links--style {
@@ -314,7 +315,8 @@ a:any-link {
 }
 
 .nav__links--style > li > a {
-	color: var(--brand-600);
+	/* color: var(--brand-600); */
+	color: #f8cb47;
 }
 
 .nav__link--logo-style a:first-child {

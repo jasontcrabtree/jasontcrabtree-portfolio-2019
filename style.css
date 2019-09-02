@@ -250,7 +250,13 @@ p,
 }
 
 .hero-title-block {
-	background: var(--primary-brand-color);
+	/* background: var(--primary-brand-color); */
+	background: rgb(70, 71, 148);
+	background: linear-gradient(
+		177deg,
+		rgba(70, 71, 148, 1) 60%,
+		rgba(110, 80, 180, 1) 90%
+	);
 }
 
 .hero-title-heading {
