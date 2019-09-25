@@ -32,7 +32,7 @@ html {
 	); */
 	font-family: "Raleway", sans-serif;
 	box-sizing: border-box;
-	overflow: none;
+	overflow: hidden;
 	font-size: 20px;
 	color: var(--text-black);
 }
