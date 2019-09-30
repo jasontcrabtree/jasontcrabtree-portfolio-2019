@@ -634,7 +634,7 @@ a .current-status-text--style {
 }
 
 .design-studies-image__layout {
-	/* width: 100%; */
+	width: 100%;
 	max-height: 500px;
 
 	/* margin: 0 auto 16px 0; */
