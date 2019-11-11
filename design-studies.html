@@ -67,6 +67,7 @@
 		/>
 	</head>
 	<body
+		onload="updateStudiesCount()"
 		class="base__type--styles decorative-background__background-styles decorative-background__background-styles--pattern body__scroll-behaviour"
 	>
 		<nav class="nav__container--layout nav__container--style nav-styles-reset">
@@ -108,10 +109,161 @@
 			</header>
 
 			<article class="article-block-style">
-				<ul class="design-studies__items-list--layout">
+				<section
+					class="filter-controls--layout filter-controls--style design-studies__items-list--layout"
+					id="filterButtonsContainer"
+				>
+					<h2> Filter: <span id="studiesCount">0</span> Past Studies</h2>
+					<button
+						class="filter-control-button--style filterButton active--button"
+						onclick="filterActiveTag('all')"
+						id="viewAll"
+					>
+						View All
+					</button>
+					<button
+						class="filter-control-button--style filterButton"
+						onclick="filterActiveTag('ui-ux')"
+					>
+						UI/UX
+					</button>
+					<button
+						class="filter-control-button--style filterButton"
+						onclick="filterActiveTag('ux')"
+					>
+						UX
+					</button>
+					<button
+						class="filter-control-button--style filterButton"
+						onclick="filterActiveTag('mobile')"
+					>
+						Mobile
+					</button>
+					<button
+						class="filter-control-button--style filterButton"
+						onclick="filterActiveTag('web-rwd')"
+					>
+						Web
+					</button>
+					<button
+						class="filter-control-button--style filterButton"
+						onclick="filterActiveTag('illustration')"
+					>
+						Illustration
+					</button>
+					<button
+						class="filter-control-button--style filterButton"
+						onclick="filterActiveTag('experimentation')"
+					>
+						Experiments
+					</button>
+				</section>
+
+				<ul id="designStudiesList" class="design-studies__items-list--layout">
+					<!-- (li.designStudyListItems.image-list--style.image-li--layout>h2+figure>img+figcaption)*1 -->
+					<li
+						class="image-li--style image-li--layout designStudyListItems illustration"
+					>
+						<h2 class="design-study-title--style">
+							Photo to Vector Illustration
+						</h2>
+						<figure>
+							<img
+								class="design-studies-image__layout lazy"
+								src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1569873017/Design-Studies/Chris-5.png"
+								alt="Brightly coloured vector illustration of Chris riding a bicycle with his feet up on the bike handlebars."
+							/>
+							<figcaption>
+								<p class="fig-desc--style">
+									Chris rides a bike relaxed as can be — feet up and having a
+									blast, bright colours radiating happiness!
+								</p>
+								<p class="publish-date--style">Published: 5th Nov 2019</p>
+								<p class="publish-date--style tag">
+									<img
+										class="icon--layout"
+										src="assets/icons/tag.svg"
+										alt="Tag Icon"
+										srcset=""
+									/>
+									TAGS:
+									<span>Illustration</span>
+								</p>
+							</figcaption>
+						</figure>
+					</li>
+
+					<li
+						class="image-li--style image-li--layout designStudyListItems ui-ux web-rwd"
+					>
+						<h2 class="design-study-title--style">
+							Design Agency Pricing Page — Illustration Focus
+						</h2>
+						<figure>
+							<img
+								class="design-studies-image__layout lazy"
+								src="https://cdn.dribbble.com/users/1710207/screenshots/7556327/media/d8f3ec348bd6ad64635a19bef5b38484.png"
+								alt="Brightly coloured vector illustration of Chris riding a bicycle with his feet up on the bike handlebars."
+							/>
+							<figcaption>
+								<p class="fig-desc--style">
+									Design Agency Pricing Page — Illustration Focus
+								</p>
+								<p class="publish-date--style">Published: 12th Oct 2019</p>
+								<p class="publish-date--style tag">
+									<img
+										class="icon--layout"
+										src="assets/icons/tag.svg"
+										alt="Tag Icon"
+										srcset=""
+									/>
+									TAGS:
+									<span>UX/UX</span>
+									<span>Responsive Web Design</span>
+								</p>
+							</figcaption>
+						</figure>
+					</li>
+
+					<li
+						class="image-li--style image-li--layout designStudyListItems ui-ux ux mobile"
+					>
+						<h2 class="design-study-title--style">
+							Mobile App Prototype: Photo-Sharing App
+						</h2>
+						<figure>
+							<img
+								class="design-studies-image__layout lazy"
+								src="https://cdn.dribbble.com/users/1710207/screenshots/6572756/photobox-1080.gif"
+								alt="Brightly coloured vector illustration of Chris riding a bicycle with his feet up on the bike handlebars."
+							/>
+							<figcaption>
+								<p class="fig-desc--style">
+									Mobile App Prototype: Photo-Sharing App
+								</p>
+								<p class="publish-date--style">Published: 2nd Oct 2019</p>
+								<p class="publish-date--style tag">
+									<img
+										class="icon--layout"
+										src="assets/icons/tag.svg"
+										alt="Tag Icon"
+										srcset=""
+									/>
+									TAGS:
+									<span>UX/UX</span>
+									<span>Mobile</span>
+									<span>Product</span>
+									<span>Prototyping</span>
+								</p>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+
+				<!-- <ul class="design-studies__items-list--layout">
 					<li class="grow">
 						<a href="#">
-							<h2 class="design-study-title--style">
+							<h2 class="class="design-study-title--style">
 								Vector Illustration Based on Photo Reference
 							</h2>
 							<figure>
@@ -143,7 +295,7 @@
 							Img description
 						</p>
 					</li>
-				</ul>
+				</ul> -->
 			</article>
 		</main>
 
