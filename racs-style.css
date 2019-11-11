@@ -294,9 +294,9 @@ a:any-link {
 	padding: 0px 24px;
 }
 
-.nav__link-items--layout:last-child {
+/* .nav__link-items--layout:last-child {
 	padding: 0px 0px 0px 24px;
-}
+} */
 
 .nav__link--logo {
 	/* padding: 0px 24px; */

@@ -42,7 +42,7 @@ a:any-link {
 }
 
 .design-studies-page-container--layout {
-	margin: 64px auto;
+	margin: 24px auto 64px;
 	width: 86%;
 	/* padding: 24px; */
 }
@@ -1153,6 +1153,13 @@ a .current-status-text--style {
 	font-weight: 600;
 }
 
+.filter-controls--layout {
+	position: sticky;
+	top: 0px;
+
+	padding: 16px 0px;
+}
+
 .filter-control-button--style:hover {
 	cursor: pointer;
 }
@@ -1179,13 +1186,6 @@ a .current-status-text--style {
 /* The "show" class is added to the filtered elements */
 .show {
 	display: block;
-}
-
-.filter-controls--layout {
-	position: sticky;
-	top: 0px;
-
-	padding: 16px 0px;
 }
 
 .filter-controls--style {
@@ -1222,13 +1222,52 @@ figcaption {
 @media screen and (max-width: 600px) {
 	.design-studies-page-container--layout {
 		margin: 64px auto;
-		width: 100%;
-		padding: 8px;
-		margin: 8px;
+		/* width: 100%; */
+		max-width: 100%;
+		width: auto;
+		padding: 0px;
+		margin: 0px;
 		/* padding: 24px; */
 	}
 
-	.article-block-style {
+	.study-header__title--layout {
+		margin: 64px auto;
+		/* width: 100%; */
+		max-width: 100%;
+		width: auto;
+		margin: 24px 8px;
 		padding: 8px;
+	}
+
+	.filter-control-button--style {
+		padding: 8px 8px;
+		margin-right: 2px;
+		font-size: 16px;
+		border-radius: 4px;
+		background: #f5f5f5;
+		border: 1px solid rgb(70, 71, 149, 0.4);
+		font-weight: 600;
+		margin-top: 8px;
+	}
+
+	.active--button {
+		background: #464794;
+		color: #ffffff;
+	}
+
+	.filter-controls--layout {
+		position: sticky;
+		top: 0px;
+
+		padding: 8px 0px 8px 0px;
+	}
+
+	.article-block-style {
+		width: auto;
+		margin: 24px auto;
+	}
+
+	.article-block-style {
+		padding: 16px;
 	}
 }
