@@ -1,0 +1,38 @@
+{
+  "Design Study List Item": {
+    "prefix": "new-design-study",
+    "body": [
+      "          <li",
+      "            class=\"image-li--style image-li--layout designStudyListItems illustration\"",
+      "          >",
+      "            <h2 class=\"design-study-title--style\">",
+      "              ${1:Title}",
+      "            </h2>",
+      "            <figure>",
+      "              <img",
+      "                class=\"design-studies-image__layout lazy\"",
+      "                src=\"assets/svg/Image-Placeholder1.svg\"",
+      "                data-src=\"${2:#image-link}\"",
+      "                alt=\"${3:Alt-description}\"",
+      "              />",
+      "              <figcaption>",
+      "                <p class=\"fig-desc--style\">",
+      "                  ${4:Image description}",
+      "                </p>",
+      "                <p class=\"publish-date--style\">Published: ${5:Publish date, 2019}</p>",
+      "                <p class=\"publish-date--style tag\">",
+      "                  <img",
+      "                    class=\"icon--layout\"",
+      "                    src=\"assets/icons/tag.svg\"",
+      "                    alt=\"Tag Icon\"",
+      "                  />",
+      "                  TAGS:",
+      "                  <span>${0:Tags}</span>",
+      "                </p>",
+      "              </figcaption>",
+      "            </figure>",
+      "          </li>"
+    ],
+    "description": "Design Study List Item"
+  }
+}

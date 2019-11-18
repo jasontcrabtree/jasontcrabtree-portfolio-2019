@@ -60,8 +60,8 @@ window.onscroll = function() {
     document.querySelector(".filter-controls--layout").style.top = "-72px";
   } else {
     document.querySelector(".filter-controls--layout").style.top = "-88px";
-    document.querySelector(".filter-controls--layout").style.border =
-      "1px solid #efefef";
+    // document.querySelector(".filter-controls--layout").style.border =
+    //   "1px solid #efefef";
   }
   prevScrollpos = currentScrollPos;
 };

@@ -1092,13 +1092,19 @@ a .current-status-text--style {
   padding-inline-start: 0px;
   margin: 0 auto 48px;
   padding: 24px 0 24px;
-  max-width: 66ch;
+  max-width: 48rem;
+  /* max-width: 40rem; */
+}
+
+.design-studies-figma-embed--layout {
+  height: 40rem;
+  width: 100%;
 }
 
 .design-studies__items-list--layout > li {
   margin: 0 auto 48px;
   padding: 24px 0 24px;
-  max-width: 66ch;
+  /* max-width: 56rem; */
   border-bottom: 1px solid #525e71;
 }
 
