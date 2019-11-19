@@ -129,21 +129,22 @@
           </button>
           <button
             class="filter-control-button--style filterButton"
-            onclick="filterActiveTag('ux')"
-          >
-            UX
-          </button>
-          <button
-            class="filter-control-button--style filterButton"
             onclick="filterActiveTag('mobile')"
+            id="mobile"
           >
-            Mobile
+            Mobile Design
           </button>
           <button
             class="filter-control-button--style filterButton"
-            onclick="filterActiveTag('web-rwd')"
+            onclick="filterActiveTag('web')"
           >
-            Web
+            Web Design
+          </button>
+          <button
+            class="filter-control-button--style filterButton"
+            onclick="filterActiveTag('prototype')"
+          >
+            Prototype
           </button>
           <button
             class="filter-control-button--style filterButton"
@@ -151,17 +152,19 @@
           >
             Illustration
           </button>
-          <button
+          <!-- <button
             class="filter-control-button--style filterButton"
             onclick="filterActiveTag('experimentation')"
           >
             Experiments
-          </button>
+          </button> -->
         </section>
 
         <ul id="designStudiesList" class="design-studies__items-list--layout">
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems
+            ui-ux web mobile
+            "
           >
             <h2 class="design-study-title--style">
               Seed CSS: Responsive Web Views (Designed & Coded!)
@@ -175,7 +178,12 @@
               />
               <figcaption>
                 <p class="fig-desc--style">
-                  Image description
+                  Designed and coded for the
+                  <a href="http://https://jasontcrabtree.com/freecodecamp"
+                    >FreeCodeCamp Visual Web Design Cert.</a
+                  >
+                  Project focused on designing a strong, responsive layout for
+                  documentation pages.
                 </p>
                 <p class="publish-date--style">Published: Publish date, 2019</p>
                 <p class="publish-date--style tag">
@@ -185,14 +193,17 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems
+            ui-ux web "
           >
             <h2 class="design-study-title--style">
               Seed CSS: A super simple design system (Designed & Coded!)
@@ -216,14 +227,16 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems
+            web"
           >
             <h2 class="design-study-title--style">
               Deliberate: A 20-min landing page design exercise
@@ -247,14 +260,14 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
           >
             <h2 class="design-study-title--style">
               Irregular Rhythm and Layout Spacing: Pushing my limits
@@ -278,15 +291,15 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
+          <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
               Exploring the interaction model for a daily-win logging app.
             </h2>
@@ -310,15 +323,13 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
+          <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
               Exploring layout for the documentation of a design system
             </h2>
@@ -341,14 +352,14 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems ui-ux web prototype"
           >
             <h2 class="design-study-title--style">
               Presenting a clear value proposition for a 99-Designs project
@@ -372,15 +383,15 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Web</span>
+                  <span>Prototype</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
+          <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
               Using layers and box shadows to show hierarchy
             </h2>
@@ -403,15 +414,13 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
+          <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
               Exploring the use of strong photography to convey messaging
             </h2>
@@ -434,14 +443,14 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems ui-ux web"
           >
             <h2 class="design-study-title--style">
               Exploring portfolio design layout
@@ -465,14 +474,15 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
           >
             <h2 class="design-study-title--style">
               Designing complex, responsive, content dense tables
@@ -496,7 +506,9 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
@@ -527,14 +539,14 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Illustration</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems ui-ux web"
           >
             <h2 class="design-study-title--style">
               Designing within Constraints: Wordpress theme edition
@@ -558,14 +570,15 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
           >
             <h2 class="design-study-title--style">
               Exploring dynamic, responsive theme layouts in a portfolio
@@ -589,15 +602,15 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
+          <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
               Practicing bold constrast and image overlays
             </h2>
@@ -620,14 +633,14 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems mobile prototype ui-ux"
           >
             <h2 class="design-study-title--style">
               OpenMed App Prototype: Try out the interactive Figma prototype!
@@ -636,16 +649,11 @@
               <iframe
                 style="border: none;"
                 class="design-studies-image__layout design-studies-figma-embed--layout lazy"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8GoUOmf7L5cnHmDtjsMash%2FStudy-1-Prompts-Doctor-Visits-Copy%3Fnode-id%3D143%253A3417%26viewport%3D1059%252C437%252C0.19303874671459198%26scaling%3Dscale-down"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8GoUOmf7L5cnHmDtjsMash%2FStudy-1-Prompts-Doctor-Visits-Copy%3Fnode-id%3D143%253A3417%26viewport%3D1059%252C437%252C0.19303874671459198%26scaling%3Dscale-down"
                 allowfullscreen
               >
               </iframe>
-              <!-- <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="#image-link"
-                alt="Alt-description"
-              /> -->
               <figcaption>
                 <p class="fig-desc--style">
                   Design project via prompts.io
@@ -658,14 +666,16 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI-UX</span>
+                  <span>Mobile</span>
+                  <span>Prototype</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
+            class="image-li--style image-li--layout designStudyListItems web prototype ui-ux"
           >
             <h2 class="design-study-title--style">
               Web Agency Marketing Website: Interactive Prototype
@@ -674,7 +684,8 @@
               <iframe
                 style="border: none;"
                 class="design-studies-image__layout design-studies-figma-embed--layout lazy"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoIpzajCdig631hWWG9qzfF%2FStudy-1-Stylingo-99Designs-Project%3Fnode-id%3D62%253A284%26viewport%3D288%252C361%252C0.11483308672904968%26scaling%3Dscale-down-width"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoIpzajCdig631hWWG9qzfF%2FStudy-1-Stylingo-99Designs-Project%3Fnode-id%3D62%253A284%26viewport%3D288%252C361%252C0.11483308672904968%26scaling%3Dscale-down-width"
                 allowfullscreen
               ></iframe>
               <figcaption>
@@ -689,15 +700,15 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>UI-UX</span>
+                  <span>Web</span>
+                  <span>Prototype</span>
                 </p>
               </figcaption>
             </figure>
           </li>
 
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
+          <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
               Exploration wireframe for a productivity content website
             </h2>
@@ -720,7 +731,7 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>Tags</span>
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
@@ -759,41 +770,8 @@
             </figure>
           </li>
 
-          <!-- <li
-            class="image-li--style image-li--layout designStudyListItems ui-ux web-rwd"
-          >
-            <h2 class="design-study-title--style">
-              Design Agency Pricing Page with Open Source Illustration
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://cdn.dribbble.com/users/1710207/screenshots/7556327/media/d8f3ec348bd6ad64635a19bef5b38484.png"
-                alt="A pricing webpage I designed for a 99designs contest. Focus on an open source illustration."
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  A pricing webpage I designed for a 99designs contest. Focus on
-                  an open source illustration.
-                </p>
-                <p class="publish-date--style">Published: 12th Oct 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UX/UX</span>
-                  <span>Responsive Web Design</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li> -->
-
           <li
-            class="image-li--style image-li--layout designStudyListItems ui-ux ux mobile"
+            class="image-li--style image-li--layout designStudyListItems ui-ux prototype mobile"
           >
             <h2 class="design-study-title--style">
               Mobile App Prototype: Photo-Sharing App Demo
@@ -819,10 +797,9 @@
                     srcset=""
                   />
                   TAGS:
-                  <span>UX/UX</span>
+                  <span>UI-UX</span>
                   <span>Mobile</span>
-                  <span>Product</span>
-                  <span>Prototyping</span>
+                  <span>Prototype</span>
                 </p>
               </figcaption>
             </figure>

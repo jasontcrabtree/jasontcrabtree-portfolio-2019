@@ -9,8 +9,7 @@
   --grey-200: #efefef;
   --grey-500: #525e71;
   --grey-600: #353646;
-  --grey-700: #4c5383;
-  /* --text-black: #16121d; */
+
   --text-black: #060508;
   --support-brand-color: #cbcce7;
   --primary-brand-color: #464794;
@@ -69,9 +68,10 @@ nav ul a:any-link {
   font-size: 18px;
 }
 
-a {
-  text-decoration: underline;
-  color: var(--primary-brand-color);
+.design-studies-page-container--layout ul a:any-link,
+.design-studies-page-container--layout ul a:visited {
+  text-decoration: underline !important;
+  color: var(--primary-brand-color) !important;
 }
 
 /* SINGLE SCREEN LAYOUT */
@@ -1187,6 +1187,10 @@ a .current-status-text--style {
   display: none;
 }
 
+.design-studies-page-container--layout > a:any-link {
+  color: #464794;
+}
+
 .fig-desc--style {
   font-style: italic;
 }
@@ -1278,4 +1282,21 @@ figcaption {
   .article-block-style {
     padding: 16px;
   }
+}
+
+section > * > .contact-me-link--style,
+section > .contact-me-link--style {
+  color: #ffffff;
+}
+
+.tag > span {
+  border-bottom: solid 4px var(--red-500);
+  margin: 0px 16px;
+  font-weight: bold;
+}
+
+button:active {
+  -webkit-box-shadow: 0px 4px 24px 8px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 4px 24px 8px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 4px 24px 8px rgba(0, 0, 0, 0.35);
 }
