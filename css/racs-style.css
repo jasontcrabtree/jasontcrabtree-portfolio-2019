@@ -374,7 +374,7 @@ a:any-link {
   margin-block-end: 0px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
   .nav__link-items--mobile {
     display: none !important;
   }
@@ -389,6 +389,10 @@ a:any-link {
   .nav__links--layout {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .nav__links--style {
+    font-size: 6px !important;
   }
 
   .nav__link-items--layout {

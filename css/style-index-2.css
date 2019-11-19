@@ -32,7 +32,6 @@ html {
 }
 
 a:any-link {
-  font-size: 18px;
   text-decoration: underline;
 }
 
@@ -59,13 +58,41 @@ ul a:any-link {
   text-decoration: none;
   color: var(--text-black);
   font-weight: 400;
-  font-size: 20px;
 }
 
 nav ul a:any-link {
   color: #ffffff;
   font-weight: 700;
-  font-size: 18px;
+}
+
+@media screen and (min-width: 980px) {
+  .nav__link-items--large-screen {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .nav__link-items--large-screen {
+    display: auto;
+  }
+}
+
+@media screen and (min-width: 561px) {
+  ul a:any-link {
+    font-size: 20px;
+  }
+
+  a:any-link {
+    font-size: 18px;
+  }
+
+  nav ul a:any-link {
+    font-size: 18px;
+  }
+
+  .nav__link-items--large-screen {
+    display: none;
+  }
 }
 
 .design-studies-page-container--layout ul a:any-link,
@@ -798,9 +825,6 @@ nav ul a:any-link {
     margin-left: 16px;
   }
 
-  .quote-container-2 {
-  }
-
   .main-image-and-name > .quote-text {
     margin-left: 16px;
   }
@@ -823,10 +847,6 @@ nav ul a:any-link {
   .card-list-right-item {
     margin-right: 16px;
     margin-left: 16px !important;
-  }
-
-  .card-list-child:nth-child(even) {
-    /* margin-left: 40px !important; */
   }
 
   .card__learn-more--layout {
@@ -872,7 +892,6 @@ nav ul a:any-link {
 
 .quote-people-are-so-nice {
   display: grid;
-  /* align-content: space-evenly; */
 }
 
 .quote-people-are-so-nice > * {
@@ -902,8 +921,6 @@ nav ul a:any-link {
 }
 
 .card-list-child {
-  /* padding-inline-start: 0px; */
-
   background: #ffffff;
 }
 
@@ -1240,6 +1257,10 @@ figcaption {
     padding: 0px;
     margin: 0px;
     /* padding: 24px; */
+  }
+
+  body > nav > ul > li {
+    font-size: 16px !important;
   }
 
   .study-header__title--layout {

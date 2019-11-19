@@ -106,6 +106,11 @@
         <a href="https://en.wikipedia.org/wiki/Study_(art)">
           Wikipedia Definition of an Art Study</a
         >
+        <p>
+          These projects show my progression as I'm building design craft
+          skills. They're mostly experiments, learning exercises and self-driven
+          projects. If you have any questions — you know where to find me!
+        </p>
       </header>
 
       <article class="article-block-style">
@@ -118,12 +123,14 @@
             class="filter-control-button--style filterButton active--button"
             onclick="filterActiveTag('all')"
             id="viewAll"
+            id="all"
           >
             View All
           </button>
           <button
             class="filter-control-button--style filterButton"
             onclick="filterActiveTag('ui-ux')"
+            id="ui-ux"
           >
             UI/UX
           </button>
@@ -137,55 +144,54 @@
           <button
             class="filter-control-button--style filterButton"
             onclick="filterActiveTag('web')"
+            id="web"
           >
             Web Design
           </button>
           <button
             class="filter-control-button--style filterButton"
             onclick="filterActiveTag('prototype')"
+            id="prototype"
           >
             Prototype
           </button>
           <button
             class="filter-control-button--style filterButton"
             onclick="filterActiveTag('illustration')"
+            id="illustration"
           >
             Illustration
           </button>
-          <!-- <button
+          <button
             class="filter-control-button--style filterButton"
-            onclick="filterActiveTag('experimentation')"
+            onclick="filterActiveTag('fav')"
+            id="Favourites"
           >
-            Experiments
-          </button> -->
+            Favourites
+          </button>
         </section>
 
         <ul id="designStudiesList" class="design-studies__items-list--layout">
           <li
-            class="image-li--style image-li--layout designStudyListItems
-            ui-ux web mobile
-            "
+            class="image-li--style image-li--layout designStudyListItems illustration fav"
           >
             <h2 class="design-study-title--style">
-              Seed CSS: Responsive Web Views (Designed & Coded!)
+              Vector Illustration of Chris riding a bicycle
             </h2>
             <figure>
               <img
                 class="design-studies-image__layout lazy"
                 src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117907/Design-Studies/DS-01-Seed-CSS.png"
-                alt="Alt-description"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1573768879/Design-Studies/Chris-5.png"
+                alt="Brightly coloured vector illustration of Chris riding a bicycle with his feet up on the bike handlebars."
               />
               <figcaption>
                 <p class="fig-desc--style">
-                  Designed and coded for the
-                  <a href="http://https://jasontcrabtree.com/freecodecamp"
-                    >FreeCodeCamp Visual Web Design Cert.</a
-                  >
-                  Project focused on designing a strong, responsive layout for
-                  documentation pages.
+                  Chris rides a bike relaxed as can be — feet up and having a
+                  blast, bright colours radiating happiness! Designed in Figma
+                  using vectors.
                 </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
+                <p class="publish-date--style">Published: 3rd October, 2019</p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -193,257 +199,7 @@
                     alt="Tag Icon"
                   />
                   TAGS:
-                  <span>UI/UX</span>
-                  <span>Mobile</span>
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems
-            ui-ux web "
-          >
-            <h2 class="design-study-title--style">
-              Seed CSS: A super simple design system (Designed & Coded!)
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117907/Design-Studies/DS-05-Seed-CSS.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UI/UX</span>
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems
-            web"
-          >
-            <h2 class="design-study-title--style">
-              Deliberate: A 20-min landing page design exercise
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117908/Design-Studies/DS-04-Deliberate-LP.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
-          >
-            <h2 class="design-study-title--style">
-              Irregular Rhythm and Layout Spacing: Pushing my limits
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117908/Design-Studies/DS-06-Chilis-Page.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UI/UX</span>
-                  <span>Mobile</span>
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li class="image-li--style image-li--layout designStudyListItems web">
-            <h2 class="design-study-title--style">
-              Exploring the interaction model for a daily-win logging app.
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117908/Design-Studies/DS-09-Daily-Wins.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Initial exploration results show: this type of interaction is
-                  extremely complex!
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li class="image-li--style image-li--layout designStudyListItems web">
-            <h2 class="design-study-title--style">
-              Exploring layout for the documentation of a design system
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117909/Design-Studies/DS-08-Fountain-Design-Sys.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems ui-ux web prototype"
-          >
-            <h2 class="design-study-title--style">
-              Presenting a clear value proposition for a 99-Designs project
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117910/Design-Studies/DS-12-Valence-LP.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UI/UX</span>
-                  <span>Web</span>
-                  <span>Prototype</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li class="image-li--style image-li--layout designStudyListItems web">
-            <h2 class="design-study-title--style">
-              Using layers and box shadows to show hierarchy
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117911/Design-Studies/DS-13-SuperSide-LP.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li class="image-li--style image-li--layout designStudyListItems web">
-            <h2 class="design-study-title--style">
-              Exploring the use of strong photography to convey messaging
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117912/Design-Studies/DS-11-Wordly-LP.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Web</span>
+                  <span>Illustration</span>
                 </p>
               </figcaption>
             </figure>
@@ -466,7 +222,9 @@
                 <p class="fig-desc--style">
                   Image description
                 </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
+                <p class="publish-date--style">
+                  Published: 23rd September, 2019
+                </p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -476,70 +234,6 @@
                   TAGS:
                   <span>UI/UX</span>
                   <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
-          >
-            <h2 class="design-study-title--style">
-              Designing complex, responsive, content dense tables
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117913/Design-Studies/DS-10-Seed.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UI/UX</span>
-                  <span>Mobile</span>
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
-            <h2 class="design-study-title--style">
-              Layout and repetition, design repetition practice
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117913/Design-Studies/DS-03-GD-Poster.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Illustration</span>
                 </p>
               </figcaption>
             </figure>
@@ -562,7 +256,9 @@
                 <p class="fig-desc--style">
                   Image description
                 </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
+                <p class="publish-date--style">
+                  Published: 11th September, 2019
+                </p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -571,39 +267,6 @@
                   />
                   TAGS:
                   <span>UI/UX</span>
-                  <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
-          >
-            <h2 class="design-study-title--style">
-              Exploring dynamic, responsive theme layouts in a portfolio
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117916/Design-Studies/DS-07-FCC-Portfolio.png"
-                alt="Alt-description"
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Image description
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UI/UX</span>
-                  <span>Mobile</span>
                   <span>Web</span>
                 </p>
               </figcaption>
@@ -612,20 +275,20 @@
 
           <li class="image-li--style image-li--layout designStudyListItems web">
             <h2 class="design-study-title--style">
-              Practicing bold constrast and image overlays
+              Using layers and box shadows to show hierarchy
             </h2>
             <figure>
               <img
                 class="design-studies-image__layout lazy"
                 src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574118040/Design-Studies/DS-02-Operator-LP.png"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117911/Design-Studies/DS-13-SuperSide-LP.png"
                 alt="Alt-description"
               />
               <figcaption>
                 <p class="fig-desc--style">
                   Image description
                 </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
+                <p class="publish-date--style">Published: 27th June, 2019</p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -640,7 +303,7 @@
           </li>
 
           <li
-            class="image-li--style image-li--layout designStudyListItems mobile prototype ui-ux"
+            class="image-li--style image-li--layout designStudyListItems mobile prototype ui-ux fav"
           >
             <h2 class="design-study-title--style">
               OpenMed App Prototype: Try out the interactive Figma prototype!
@@ -658,7 +321,7 @@
                 <p class="fig-desc--style">
                   Design project via prompts.io
                 </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
+                <p class="publish-date--style">Published: 20th June, 2019</p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -668,40 +331,6 @@
                   TAGS:
                   <span>UI-UX</span>
                   <span>Mobile</span>
-                  <span>Prototype</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems web prototype ui-ux"
-          >
-            <h2 class="design-study-title--style">
-              Web Agency Marketing Website: Interactive Prototype
-            </h2>
-            <figure>
-              <iframe
-                style="border: none;"
-                class="design-studies-image__layout design-studies-figma-embed--layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoIpzajCdig631hWWG9qzfF%2FStudy-1-Stylingo-99Designs-Project%3Fnode-id%3D62%253A284%26viewport%3D288%252C361%252C0.11483308672904968%26scaling%3Dscale-down-width"
-                allowfullscreen
-              ></iframe>
-              <figcaption>
-                <p class="fig-desc--style">
-                  99-Design Project
-                </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>UI-UX</span>
-                  <span>Web</span>
                   <span>Prototype</span>
                 </p>
               </figcaption>
@@ -723,7 +352,7 @@
                 <p class="fig-desc--style">
                   Image description
                 </p>
-                <p class="publish-date--style">Published: Publish date, 2019</p>
+                <p class="publish-date--style">Published: 19th June, 2019</p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -732,39 +361,6 @@
                   />
                   TAGS:
                   <span>Web</span>
-                </p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li
-            class="image-li--style image-li--layout designStudyListItems illustration"
-          >
-            <h2 class="design-study-title--style">
-              Vector Illustration of Chris riding a bicycle
-            </h2>
-            <figure>
-              <img
-                class="design-studies-image__layout lazy"
-                src="assets/svg/Image-Placeholder1.svg"
-                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1573768879/Design-Studies/Chris-5.png"
-                alt="Brightly coloured vector illustration of Chris riding a bicycle with his feet up on the bike handlebars."
-              />
-              <figcaption>
-                <p class="fig-desc--style">
-                  Chris rides a bike relaxed as can be — feet up and having a
-                  blast, bright colours radiating happiness! Designed in Figma
-                  using vectors.
-                </p>
-                <p class="publish-date--style">Published: 5th Nov 2019</p>
-                <p class="publish-date--style tag">
-                  <img
-                    class="icon--layout"
-                    src="assets/icons/tag.svg"
-                    alt="Tag Icon"
-                  />
-                  TAGS:
-                  <span>Illustration</span>
                 </p>
               </figcaption>
             </figure>
@@ -788,7 +384,7 @@
                   Mobile prototype designed in Figma; showing the interaction
                   model as you tap through each screen.
                 </p>
-                <p class="publish-date--style">Published: 2nd Oct 2019</p>
+                <p class="publish-date--style">Published: 2nd June 2019</p>
                 <p class="publish-date--style tag">
                   <img
                     class="icon--layout"
@@ -800,6 +396,428 @@
                   <span>UI-UX</span>
                   <span>Mobile</span>
                   <span>Prototype</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems
+            ui-ux web mobile"
+          >
+            <h2 class="design-study-title--style">
+              Seed CSS: Responsive Web Views (Designed & Coded!)
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117907/Design-Studies/DS-01-Seed-CSS.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Designed and coded for the
+                  <a href="http://https://jasontcrabtree.com/freecodecamp"
+                    >FreeCodeCamp Visual Web Design Cert.</a
+                  >
+                  Project focused on designing a strong, responsive layout for
+                  documentation pages.
+                </p>
+                <p class="publish-date--style">Published: 19th May, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems
+          ui-ux web "
+          >
+            <h2 class="design-study-title--style">
+              Seed CSS: A super simple design system (Designed & Coded!)
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117907/Design-Studies/DS-05-Seed-CSS.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 19th May, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI/UX</span>
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
+          >
+            <h2 class="design-study-title--style">
+              Irregular Rhythm and Layout Spacing: Pushing my limits
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117908/Design-Studies/DS-06-Chilis-Page.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 19th May, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
+          >
+            <h2 class="design-study-title--style">
+              Designing complex, responsive, content dense tables
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117913/Design-Studies/DS-10-Seed.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 19th May, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems ui-ux web mobile"
+          >
+            <h2 class="design-study-title--style">
+              Exploring dynamic, responsive theme layouts in a portfolio
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117916/Design-Studies/DS-07-FCC-Portfolio.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 19th May, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI/UX</span>
+                  <span>Mobile</span>
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="image-li--style image-li--layout designStudyListItems web">
+            <h2 class="design-study-title--style">
+              Exploring layout for the documentation of a design system
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117909/Design-Studies/DS-08-Fountain-Design-Sys.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 12th May, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems illustration"
+          >
+            <h2 class="design-study-title--style">
+              Layout and repetition, design repetition practice
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117913/Design-Studies/DS-03-GD-Poster.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 30th April, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>Illustration</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems ui-ux web prototype"
+          >
+            <h2 class="design-study-title--style">
+              Presenting a clear value proposition for a 99-Designs project
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117910/Design-Studies/DS-12-Valence-LP.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: April 25th, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI/UX</span>
+                  <span>Web</span>
+                  <span>Prototype</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems
+          web"
+          >
+            <h2 class="design-study-title--style">
+              Deliberate: A 20-min landing page design exercise
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117908/Design-Studies/DS-04-Deliberate-LP.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 18th April, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="image-li--style image-li--layout designStudyListItems web">
+            <h2 class="design-study-title--style">
+              Practicing bold constrast and image overlays
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574118040/Design-Studies/DS-02-Operator-LP.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">Published: 5th April, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li
+            class="image-li--style image-li--layout designStudyListItems web prototype ui-ux fav"
+          >
+            <h2 class="design-study-title--style">
+              Stylingo Web Agency Marketing Website: Interactive Prototype
+            </h2>
+            <figure>
+              <iframe
+                style="border: none;"
+                class="design-studies-image__layout design-studies-figma-embed--layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoIpzajCdig631hWWG9qzfF%2FStudy-1-Stylingo-99Designs-Project%3Fnode-id%3D62%253A284%26viewport%3D288%252C361%252C0.11483308672904968%26scaling%3Dscale-down-width"
+                allowfullscreen
+              ></iframe>
+              <figcaption>
+                <p class="fig-desc--style">
+                  99-Design Project
+                </p>
+                <p class="publish-date--style">
+                  Published: 28th February, 2019
+                </p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>UI-UX</span>
+                  <span>Web</span>
+                  <span>Prototype</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="image-li--style image-li--layout designStudyListItems web">
+            <h2 class="design-study-title--style">
+              Exploring the use of strong photography to convey messaging
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117912/Design-Studies/DS-11-Wordly-LP.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Image description
+                </p>
+                <p class="publish-date--style">
+                  Published: 10th February, 2019
+                </p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>Web</span>
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="image-li--style image-li--layout designStudyListItems web">
+            <h2 class="design-study-title--style">
+              Exploring the interaction model for a daily-win logging app.
+            </h2>
+            <figure>
+              <img
+                class="design-studies-image__layout lazy"
+                src="assets/svg/Image-Placeholder1.svg"
+                data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1574117908/Design-Studies/DS-09-Daily-Wins.png"
+                alt="Alt-description"
+              />
+              <figcaption>
+                <p class="fig-desc--style">
+                  Initial exploration results show: this type of interaction is
+                  extremely complex!
+                </p>
+                <p class="publish-date--style">Published: 1st February, 2019</p>
+                <p class="publish-date--style tag">
+                  <img
+                    class="icon--layout"
+                    src="assets/icons/tag.svg"
+                    alt="Tag Icon"
+                  />
+                  TAGS:
+                  <span>Web</span>
                 </p>
               </figcaption>
             </figure>
